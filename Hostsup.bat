@@ -7,8 +7,9 @@ set dowhosts="%temp%\dowhosts.vbs"
 set win7=::
 if /i not exist "%SystemRoot%\System32\choice.exe" set win7=::
 :: 下行为默认的HOSTS链接
+set hosts0=https://github.com/Lerist/Go-Hosts/raw/master/hosts
+set hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts
 set hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts
-::set hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts
 set hosts1=https://github.com/vokins/yhosts/raw/master/hosts
 
 title Hosts远程下载更新工具5.2
@@ -42,6 +43,7 @@ echo.  [1] 远程下载更新 HOSTS(默认)   [2] 打开 defined_hosts.txt
 echo.  [3] 自定义 HOSTS 链接          [4] 恢复初始 HOSTS
 echo.  [5] 打开系统 HOSTS 目录
 echo.
+:: https://coding.net/u/idoog/p/HOSTS/
 echo.-------------------------------------------------idoog.me--
 %win7%goto Choice
 set choice=1
@@ -245,11 +247,12 @@ echo.-----------------------------------------------------------
 echo.
 echo    底部输入自定义的HOSTS链接，可以输入任意链接，或：
 echo.
-echo.   回车后默认：http://idoog.me/hosts (Go Hosts源)
+echo.   回车后默认为：
+echo.   https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts
 echo.
 echo.
 echo.-------------------------------------------------idoog.me--
-set hosts0=http://idoog.me/hosts
+set hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts
 set /p hosts0= HOSTS地址^>^>%=%
 set customize=::
 GOTO host DNS
