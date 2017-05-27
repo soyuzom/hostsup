@@ -6,46 +6,46 @@ set hostsfile="%SYSTEMROOT%\System32\Drivers\etc\hosts"
 set dowhosts="%temp%\dowhosts.vbs"
 set win7=::
 if /i not exist "%SystemRoot%\System32\choice.exe" set win7=::
-:: ÏÂÐÐÎªÄ¬ÈÏµÄHOSTSÁ´½Ó
-set hosts0=https://github.com/Lerist/Go-Hosts/raw/master/hosts
-set hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts
+:: ä¸‹è¡Œä¸ºé»˜è®¤çš„HOSTSé“¾æŽ¥
+set hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts
+::set hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts
 set hosts1=https://github.com/vokins/yhosts/raw/master/hosts
 
-title HostsÔ¶³ÌÏÂÔØ¸üÐÂ¹¤¾ß5.2
+title Hostsè¿œç¨‹ä¸‹è½½æ›´æ–°å·¥å…·5.2
 :main
 mode con lines=31 cols=60
 if /i not exist defined_hosts.txt goto defined_hosts >NUL 2>NUL
 cls
 color 5f
 echo.
-echo  ¡Ì    ¡Ì     ¡Ì¡Ì¡Ì      ¡Ì¡Ì¡Ì¡Ì  ¡Ì¡Ì¡Ì¡Ì¡Ì    ¡Ì¡Ì¡Ì¡Ì
-echo  ¡Ì    ¡Ì   ¡Ì      ¡Ì  ¡Ì      ¡Ì  ¡Ì  ¡Ì  ¡Ì  ¡Ì      ¡Ì
-echo  ¡Ì    ¡Ì   ¡Ì      ¡Ì  ¡Ì              ¡Ì      ¡Ì
-echo  ¡Ì¡Ì¡Ì¡Ì   ¡Ì      ¡Ì    ¡Ì¡Ì          ¡Ì        ¡Ì¡Ì
-echo  ¡Ì    ¡Ì   ¡Ì      ¡Ì        ¡Ì        ¡Ì            ¡Ì
-echo  ¡Ì    ¡Ì   ¡Ì      ¡Ì          ¡Ì      ¡Ì              ¡Ì
-echo  ¡Ì    ¡Ì   ¡Ì      ¡Ì  ¡Ì      ¡Ì      ¡Ì      ¡Ì      ¡Ì
-echo  ¡Ì    ¡Ì     ¡Ì¡Ì¡Ì     ¡Ì¡Ì¡Ì¡Ì       ¡Ì       ¡Ì¡Ì¡Ì¡Ì
+echo  âˆš    âˆš     âˆšâˆšâˆš      âˆšâˆšâˆšâˆš  âˆšâˆšâˆšâˆšâˆš    âˆšâˆšâˆšâˆš
+echo  âˆš    âˆš   âˆš      âˆš  âˆš      âˆš  âˆš  âˆš  âˆš  âˆš      âˆš
+echo  âˆš    âˆš   âˆš      âˆš  âˆš              âˆš      âˆš
+echo  âˆšâˆšâˆšâˆš   âˆš      âˆš    âˆšâˆš          âˆš        âˆšâˆš
+echo  âˆš    âˆš   âˆš      âˆš        âˆš        âˆš            âˆš
+echo  âˆš    âˆš   âˆš      âˆš          âˆš      âˆš              âˆš
+echo  âˆš    âˆš   âˆš      âˆš  âˆš      âˆš      âˆš      âˆš      âˆš
+echo  âˆš    âˆš     âˆšâˆšâˆš     âˆšâˆšâˆšâˆš       âˆš       âˆšâˆšâˆšâˆš
 echo.
 echo.----------------------------------------------------------- 
-echo. 360¡¢µçÄÔ¹Ü¼ÒµÈ°²È«Èí¼þÌáÐÑ£¬Çë¹´Ñ¡ÐÅÈÎÔÊÐíºÍ²»ÔÙÌáÐÑ£¡
+echo. 360ã€ç”µè„‘ç®¡å®¶ç­‰å®‰å…¨è½¯ä»¶æé†’ï¼Œè¯·å‹¾é€‰ä¿¡ä»»å…è®¸å’Œä¸å†æé†’ï¼
 echo.
-echo. Èç¹û×Ô¼ºÐÞ¸Ä¹ýhostsÐÅÏ¢£¬Çë¸´ÖÆµ½ defined_hosts.txt
-echo.¡¾defined_hosts.txt¡¿ÎÄ¼þ¿É×Ô¶¨Òåhosts£¬¸üÐÂ»á×Ô¶¯ºÏ²¢¡£
+echo. å¦‚æžœè‡ªå·±ä¿®æ”¹è¿‡hostsä¿¡æ¯ï¼Œè¯·å¤åˆ¶åˆ° defined_hosts.txt
+echo.ã€defined_hosts.txtã€‘æ–‡ä»¶å¯è‡ªå®šä¹‰hostsï¼Œæ›´æ–°ä¼šè‡ªåŠ¨åˆå¹¶ã€‚
 echo.
-echo. ¾¯¸æ£ºÖ´ÐÐ¸ÃÃüÁî ÄúµÄ HOSTS »á½«±»×Ô¶¯Ìæ»»¸²¸Ç£¡
+echo. è­¦å‘Šï¼šæ‰§è¡Œè¯¥å‘½ä»¤ æ‚¨çš„ HOSTS ä¼šå°†è¢«è‡ªåŠ¨æ›¿æ¢è¦†ç›–ï¼
 echo.-----------------------------------------------------------
-echo. ÇëÑ¡ÔñÊ¹ÓÃ£º
+echo. è¯·é€‰æ‹©ä½¿ç”¨ï¼š
 echo.
 echo. 
-echo.  [1] Ô¶³ÌÏÂÔØ¸üÐÂ HOSTS(Ä¬ÈÏ)   [2] ´ò¿ª defined_hosts.txt
-echo.  [3] ×Ô¶¨Òå HOSTS Á´½Ó          [4] »Ö¸´³õÊ¼ HOSTS
-echo.  [5] ´ò¿ªÏµÍ³ HOSTS Ä¿Â¼
+echo.  [1] è¿œç¨‹ä¸‹è½½æ›´æ–° HOSTS(é»˜è®¤)   [2] æ‰“å¼€ defined_hosts.txt
+echo.  [3] è‡ªå®šä¹‰ HOSTS é“¾æŽ¥          [4] æ¢å¤åˆå§‹ HOSTS
+echo.  [5] æ‰“å¼€ç³»ç»Ÿ HOSTS ç›®å½•
 echo.
 echo.-------------------------------------------------idoog.me--
 %win7%goto Choice
 set choice=1
-set /p choice=ÇëÊäÈëÑ¡Ïî(Ä¬ÈÏ=1):
+set /p choice=è¯·è¾“å…¥é€‰é¡¹(é»˜è®¤=1):
 
 echo.
 if /i %choice%==5 start "" explorer.exe /select,%hostsfile% && goto main
@@ -55,12 +55,12 @@ if /i %choice%==2 start "" explorer.exe /select,defined_hosts.txt && goto main
 if /i %choice%==1 goto host DNS
 cls
 set choice=
-echo.ÄúÊäÈëÓÐÎó£¬ÇëÖØÐÂÑ¡Ôñ¡£
+echo.æ‚¨è¾“å…¥æœ‰è¯¯ï¼Œè¯·é‡æ–°é€‰æ‹©ã€‚
 ping 127.0.1 -n "4">nul
 goto main
 
 :Choice
-choice /c 12345 /n /m "ÇëÊäÈëÄúµÄÑ¡Ôñ£º"
+choice /c 12345 /n /m "è¯·è¾“å…¥æ‚¨çš„é€‰æ‹©ï¼š"
 if errorlevel 5 start "" explorer.exe /select,%hostsfile% && goto main
 if errorlevel 4 goto CL
 if errorlevel 3 goto customize
@@ -74,14 +74,14 @@ goto main
 
 set AD=n
 set ADs=::
-set /p AD=ÊÇ·ñ¸üÐÂÈ¥¹ã¸æÔ´[Y/N](»Ø³µ¼ü=N):%=% 
+set /p AD=æ˜¯å¦æ›´æ–°åŽ»å¹¿å‘Šæº[Y/N](å›žè½¦é”®=N):%=% 
 ::
 if /i %AD%==y set ADs= && goto JJ
 if /i %AD%==N goto JJ
 goto JJ
 
 :Choice2
-choice /d 1 /t 6 /m "ÇëÊäÈëÄúµÄÑ¡Ôñ(6s=Y):"
+choice /d 1 /t 6 /m "è¯·è¾“å…¥æ‚¨çš„é€‰æ‹©(6s=Y):"
 if errorlevel 2 set ADs= && goto JJ
 if errorlevel 1 goto JJ
 
@@ -90,7 +90,7 @@ if errorlevel 1 goto JJ
 cls
 echo.-----------------------------------------------------------
 echo.
-echo # ÕýÔÚÏÂÔØ HOSTS...
+echo # æ­£åœ¨ä¸‹è½½ HOSTS...
 echo.
 if /i exist host ( del /f /q host )
 if /i exist host1 ( del /f /q host1 )
@@ -127,41 +127,41 @@ if /i exist host1 ( copy/ b /y hosts+host1 ) >NUL 2>NUL
 ::%customize%set line=0
 ::%customize%for /f "delims=*" %%i in (host) do (
 ::%customize%set /a line+=1
-::%customize%if !line!==2 set A=%%i && set B=!A:~-20! && echo # HOSTS ¸üÐÂÊ±¼ä£º && echo !B!
+::%customize%if !line!==2 set A=%%i && set B=!A:~-20! && echo # HOSTS æ›´æ–°æ—¶é—´ï¼š && echo !B!
 ::%customize%)
 %ADs%setlocal enabledelayedexpansion
 %ADs%set line=0
 %ADs%for /f "delims=*" %%i in (host1) do (
 %ADs%set /a line+=1
-%ADs%if !line!==1 set A=%%i && set B=!A:~-13! && echo # ¹ã¸æÔ´¸üÐÂÊ±¼ä: !B!
+%ADs%if !line!==1 set A=%%i && set B=!A:~-13! && echo # å¹¿å‘Šæºæ›´æ–°æ—¶é—´: !B!
 %ADs%)
 %ADs%echo.
 copy /y "hosts" %hostsfile% >NUL 2>NUL||takeown /f "%hostsfile%" && icacls "%hostsfile%" /grant administrators:F && attrib -r -h -s "%hostsfile%" && echo. && cls && copy /y "hosts" %hostsfile%
 IF %ERRORLEVEL% == 1 GOTO ERROR
-echo # HOSTS ¸üÐÂÊ±¼ä:
+echo # HOSTS æ›´æ–°æ—¶é—´:
 findstr /ic:"# 2017" "C:\Windows\System32\drivers\etc\hosts"
 findstr /ic:"# Last updated:" "C:\Windows\System32\drivers\etc\hosts"
 echo.
-echo.# ÒÑÌæ»»HOSTSµ½ÏµÍ³¡£
+echo.# å·²æ›¿æ¢HOSTSåˆ°ç³»ç»Ÿã€‚
 echo.
 ping 127.1 -n 2 >nul
-::Ë¢ÐÂ DNS ½âÎö»º´æ
+::åˆ·æ–° DNS è§£æžç¼“å­˜
 ipconfig /flushdns >NUL
 ping 127.1 -n 1 >nul
-echo.# ÒÑ³É¹¦Ë¢ÐÂ DNS ½âÎö»º´æ¡£
+echo.# å·²æˆåŠŸåˆ·æ–° DNS è§£æžç¼“å­˜ã€‚
 if /i exist host ( del /f /q host ) >NUL 2>NUL
 if /i exist host1 ( del /f /q host1 ) >NUL 2>NUL
 del /f /q hosts>NUL 2>NUL
 del /f /q %dowhosts% >NUL 2>NUL
 echo.-----------------------------------------------------------
 echo.
-echo  ¸²¸Ç±¾µØhosts²¢Ë¢ÐÂ±¾µØDNS½âÎö»º´æ³É¹¦!
-echo  ÏÖÔÚÈ¥´ò¿ªGoogle¡¢Twitter¡¢Facebook¡¢Gmail¡¢¹È¸èÑ§Êõ°É£¡
-echo. ¹È¸èÕâÐ©ÍøÕ¾¼ÇµÃÊ¹ÓÃhttps½øÐÐ¼ÓÃÜ·ÃÎÊ£¡
+echo  è¦†ç›–æœ¬åœ°hostså¹¶åˆ·æ–°æœ¬åœ°DNSè§£æžç¼“å­˜æˆåŠŸ!
+echo  çŽ°åœ¨åŽ»æ‰“å¼€Googleã€Twitterã€Facebookã€Gmailã€è°·æ­Œå­¦æœ¯å§ï¼
+echo. è°·æ­Œè¿™äº›ç½‘ç«™è®°å¾—ä½¿ç”¨httpsè¿›è¡ŒåŠ å¯†è®¿é—®ï¼
 echo.
-echo.  ¼´£ºhttps://www.google.com
+echo.  å³ï¼šhttps://www.google.com
 echo.
-echo.  »òÕß£ºhttps://www.google.com/ncr
+echo.  æˆ–è€…ï¼šhttps://www.google.com/ncr
 echo.        https://www.google.com.hk/ncr
 echo.
 echo.-------------------------------------------------idoog.me--
@@ -179,13 +179,13 @@ echo 127.0.0.1 localhost
 echo.
 )>%hostsfile%
 ipconfig /flushdns >NUL
-echo ¹§Ï²Äú£¬hosts»Ö¸´³õÊ¼³É¹¦!
+echo æ­å–œæ‚¨ï¼Œhostsæ¢å¤åˆå§‹æˆåŠŸ!
 echo.
 echo.-------------------------------------------------idoog.me--
 goto end
 
 :end
-echo Çë°´ÈÎÒâ¼üÍË³ö¡£
+echo è¯·æŒ‰ä»»æ„é”®é€€å‡ºã€‚
 Pause>nul
 exit
 
@@ -194,31 +194,31 @@ mode con lines=31 cols=80
 cls
 echo.
 echo.------------------------------------------------------------------------
-echo ¡¾ÅäÖÃhostsÎÄ¼þµÄËùÓÐÕß¡¿
+echo ã€é…ç½®hostsæ–‡ä»¶çš„æ‰€æœ‰è€…ã€‘
 echo.
-echo ÇëÖ´ÐÐÏÂÃæ²½Öè£º
+echo è¯·æ‰§è¡Œä¸‹é¢æ­¥éª¤ï¼š
 echo.
-echo 1) ÓÒ¼ühostsÎÄ¼þ£¬µã»÷¡°ÊôÐÔ¡±²Ëµ¥ÃüÁî
-echo 2) ÔÚÊôÐÔ¶Ô»°¿òÀï£¬Ñ¡Ôñ¡°°²È«¡±Ñ¡Ïî¿¨£¬µãÏÂ·½µÄ¡°¸ß¼¶¡±°´Å¥
-echo 3) ÔÚ³öÏÖµÄÐÂ´°¿ÚÀï£¬µã»÷µÚ¶þÐÐ¡°ËùÓÐÕß¡±ÓÒ±ßÀ¶É«µÄ¡°¸ü¸Ä¡±ÎÄ±¾Á´½Ó
-echo 4) ÔÚ¡°Ñ¡ÔñÓÃ»§»ò×é¡±¶Ô»°¿òÏÂÃæµÄÎÄ±¾¿òÀïÊäÈë¡°administrators¡±£¬µã¡°È·¶¨¡±
-echo 5) »Øµ½ÆäËû´°¿ÚÀï£¬¼ÌÐøµã¡°È·¶¨¡±Íê³ÉÅäÖÃ
+echo 1) å³é”®hostsæ–‡ä»¶ï¼Œç‚¹å‡»â€œå±žæ€§â€èœå•å‘½ä»¤
+echo 2) åœ¨å±žæ€§å¯¹è¯æ¡†é‡Œï¼Œé€‰æ‹©â€œå®‰å…¨â€é€‰é¡¹å¡ï¼Œç‚¹ä¸‹æ–¹çš„â€œé«˜çº§â€æŒ‰é’®
+echo 3) åœ¨å‡ºçŽ°çš„æ–°çª—å£é‡Œï¼Œç‚¹å‡»ç¬¬äºŒè¡Œâ€œæ‰€æœ‰è€…â€å³è¾¹è“è‰²çš„â€œæ›´æ”¹â€æ–‡æœ¬é“¾æŽ¥
+echo 4) åœ¨â€œé€‰æ‹©ç”¨æˆ·æˆ–ç»„â€å¯¹è¯æ¡†ä¸‹é¢çš„æ–‡æœ¬æ¡†é‡Œè¾“å…¥â€œadministratorsâ€ï¼Œç‚¹â€œç¡®å®šâ€
+echo 5) å›žåˆ°å…¶ä»–çª—å£é‡Œï¼Œç»§ç»­ç‚¹â€œç¡®å®šâ€å®Œæˆé…ç½®
 echo.
-echo ÌáÊ¾£ºÈô¿´²»¼ûhostsÎÄ¼þ£¬ÇëÑ¡ÔñÖ÷²Ëµ¥µÄ¡°6.ÏÔÊ¾Òþ²ØÎÄ¼þ¡±£¬È»ºóË¢ÐÂÎÄ¼þ¼Ð¡£
+echo æç¤ºï¼šè‹¥çœ‹ä¸è§hostsæ–‡ä»¶ï¼Œè¯·é€‰æ‹©ä¸»èœå•çš„â€œ6.æ˜¾ç¤ºéšè—æ–‡ä»¶â€ï¼Œç„¶åŽåˆ·æ–°æ–‡ä»¶å¤¹ã€‚
 echo.
 echo.--------------------------------------------------------------idoog.me--
 ping 127.1 -n 2 >nul
 start "" explorer.exe /select,%hostsfile%
 echo.
-echo Çë°´ÈÎÒâ¼ü·µ»Ø
+echo è¯·æŒ‰ä»»æ„é”®è¿”å›ž
 echo.
 Pause>nul
 goto main
 
 :defined_hosts
 (
-echo #ÓÃ»§×Ô¶¨Òåhosts£¬½¨ÒéÊ¹ÓÃnotepad++±à¼­Æ÷±à¼­
-echo #ÇëÔÚ±¾ÐÐºóÌîÈë×Ô¶¨Òåhosts
+echo #ç”¨æˆ·è‡ªå®šä¹‰hostsï¼Œå»ºè®®ä½¿ç”¨notepad++ç¼–è¾‘å™¨ç¼–è¾‘
+echo #è¯·åœ¨æœ¬è¡ŒåŽå¡«å…¥è‡ªå®šä¹‰hosts
 echo.
 echo.
 echo.
@@ -230,12 +230,12 @@ cls
 echo.-----------------------------------------------------------
 echo.
 echo.
-echo  ³ö´íÀ²£¡Î´ÏÂÔØµ½×îÐÂµÄhosts£¬ÇëÖØÐÂ±à¼­Åú´¦ÀíÄÚµÄÄ¬ÈÏÁ´½Ó¡£
+echo  å‡ºé”™å•¦ï¼æœªä¸‹è½½åˆ°æœ€æ–°çš„hostsï¼Œè¯·é‡æ–°ç¼–è¾‘æ‰¹å¤„ç†å†…çš„é»˜è®¤é“¾æŽ¥ã€‚
 echo.
 echo.-------------------------------------------------idoog.me--
 echo.
 echo.
-echo Çë°´ÈÎÒâ¼üÍË³ö¡£
+echo è¯·æŒ‰ä»»æ„é”®é€€å‡ºã€‚
 Pause>nul
 exit
 
@@ -243,14 +243,14 @@ exit
 cls
 echo.-----------------------------------------------------------
 echo.
-echo    µ×²¿ÊäÈë×Ô¶¨ÒåµÄHOSTSÁ´½Ó£¬¿ÉÒÔÊäÈëÈÎÒâÁ´½Ó£¬»ò£º
+echo    åº•éƒ¨è¾“å…¥è‡ªå®šä¹‰çš„HOSTSé“¾æŽ¥ï¼Œå¯ä»¥è¾“å…¥ä»»æ„é“¾æŽ¥ï¼Œæˆ–ï¼š
 echo.
-echo.   »Ø³µºóÄ¬ÈÏ£ºhttp://idoog.me/hosts (Go HostsÔ´)
+echo.   å›žè½¦åŽé»˜è®¤ï¼šhttp://idoog.me/hosts (Go Hostsæº)
 echo.
 echo.
 echo.-------------------------------------------------idoog.me--
 set hosts0=http://idoog.me/hosts
-set /p hosts0= HOSTSµØÖ·^>^>%=%
+set /p hosts0= HOSTSåœ°å€^>^>%=%
 set customize=::
 GOTO host DNS
 
