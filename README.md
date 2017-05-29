@@ -22,3 +22,14 @@
 *5.0   20170506
 
 *增加，自定义HOSTS链接
+
+
+
+
+感谢！
+_______
+
+* Go-Hosts (https://github.com/Lerist/Go-Hosts)
+* Racaljk (https://github.com/racaljk/hosts)
+* Scaffrey (https://coding.net/u/scaffrey)
+* Yhosts (https://github.com/vokins/yhosts)
