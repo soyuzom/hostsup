@@ -1,5 +1,5 @@
 # Go Hosts
-# 2017-06-17 00:41:42
+# 2017-06-18 20:52:36
 
 
 127.0.0.1	localhost
@@ -576,6 +576,7 @@
 219.76.4.11	google-analytics.com
 219.76.4.11	artsandculture.google.com
 219.76.4.11	www.googletagmanager.com
+219.76.4.11	*google.com
 219.76.4.11	geo0.ggpht.com
 219.76.4.11	geo1.ggpht.com
 219.76.4.11	geo2.ggpht.com
@@ -594,6 +595,7 @@
 219.76.4.11	nt3.ggpht.com
 219.76.4.11	yt3.ggpht.com
 219.76.4.11	yt4.ggpht.com
+219.76.4.11	*ggpht.com
 219.76.4.11	accounts.gstatic.com
 219.76.4.11	maps.gstatic.com
 219.76.4.11	ssl.gstatic.com
@@ -623,6 +625,7 @@
 219.76.4.11   t4.gstatic.com
 219.76.4.11   t5.gstatic.com
 219.76.4.11   t6.gstatic.com
+219.76.4.11	*gstatic.com
 219.76.4.11   cloudconfig.googleapis.com
 219.76.4.11   people-pa.googleapis.com
 219.76.4.11   instantmessaging-pa.googleapis.com
@@ -669,6 +672,7 @@
 64.233.188.121	code.getmdl.io
 64.233.189.128	storage.googleapis.com
 219.76.4.11	chromedriver.storage.googleapis.com
+219.76.4.11	*googleapis.com
 219.76.4.11	www.googlehosted.com
 219.76.4.11	base.googlehosted.com
 219.76.4.11	base0.googlehosted.com
@@ -2063,6 +2067,7 @@
 219.76.4.11	38-wave-opensocial.googleusercontent.com
 219.76.4.11	39-wave-opensocial.googleusercontent.com
 219.76.4.11	40-wave-opensocial.googleusercontent.com
+219.76.4.11	*googleusercontent.com
 219.76.4.11	toolbox.googleapps.com
 219.76.4.11	m.google.com
 219.76.4.11	m.google.com.hk
@@ -2123,6 +2128,8 @@
 219.76.4.11	onetoday.google.com
 219.76.4.11	notifications.google.com
 219.76.4.11	redirector.googlevideo.com
+219.76.4.11	*youtube.com
+219.76.4.11	*ytimg.com
 219.76.4.11	google.ad
 219.76.4.11	google.ae
 219.76.4.11	google.al
@@ -2536,6 +2543,7 @@
 64.233.188.188 alt6-mtalk.google.com
 64.233.188.188 alt7-mtalk.google.com
 64.233.188.188 alt8-mtalk.google.com
+64.233.188.188 *-mtalk.google.com
 64.233.188.121	ghs.google.com
 64.233.188.121	ghs46.google.com
 64.233.188.121	ghs.l.google.com
@@ -4311,6 +4319,7 @@
 219.76.4.11 r18---sn-p5qs7n7s.gvt1.com
 219.76.4.11 r19---sn-p5qs7n7s.gvt1.com
 219.76.4.11 r20---sn-p5qs7n7s.gvt1.com
+219.76.4.11 *gvt1.com
 219.76.4.11 r1---sn-5uh5o-f5f6.googlevideo.com
 219.76.4.11 r2---sn-5uh5o-f5f6.googlevideo.com
 219.76.4.11 r3---sn-5uh5o-f5f6.googlevideo.com
@@ -6085,6 +6094,8 @@
 219.76.4.11 r5---sn-hp57kn7e.googlevideo.com
 219.76.4.11 r4---sn-hp57kn7e.googlevideo.com
 219.76.4.11 r6---sn-hp57kn7e.googlevideo.com
+219.76.4.11 *googlevideo.com
+219.76.4.11 *gvt1.com
 216.58.200.33	chatenabled.mail.google.com
 216.58.200.33	filetransferenabled.mail.google.com
 216.58.200.33	gmail.com
@@ -7183,6 +7194,7 @@
 219.76.4.11    yt4.ggpht.com
 219.76.4.11    yt5.ggpht.com
 219.76.4.11    yt6.ggpht.com
+219.76.4.11    *.ggpht.com
 219.76.4.11    lh2.google.com
 219.76.4.11    lh3.google.com
 219.76.4.11    lh4.google.com
@@ -7346,6 +7358,7 @@
 121.59.17.8	apps.twitter.com
 121.59.17.8	debates.twitter.com
 121.59.17.8   ads.twitter.com
+121.59.17.8 *twitter.com
 104.244.46.244	twitpic.com
 104.244.46.244	m1.twitpic.com
 104.244.46.244	web1.twitpic.com
@@ -7358,6 +7371,7 @@
 104.244.46.244	web7.twitpic.com
 104.244.46.244	web8.twitpic.com
 104.244.46.244	web9.twitpic.com
+104.244.46.244	*.twitpic.com
 104.244.46.71	a0.twimg.com
 104.244.46.71	a1.twimg.com
 104.244.46.71	a2.twimg.com
@@ -7379,6 +7393,7 @@
 104.244.46.71	syndication-o.twimg.com
 104.244.46.71	image-proxy-origin.twimg.com
 104.244.46.71	cdn.syndication.twimg.com
+104.244.46.71	*.twimg.com
 104.244.45.246	tweetdeck.com
 104.244.45.246	api.tweetdeck.com
 104.244.45.246	web.tweetdeck.com
@@ -7432,6 +7447,7 @@
 157.240.7.35 pixel.facebook.com
 157.240.7.35 star.c10r.facebook.com
 157.240.7.35 star.facebook.com
+157.240.7.35 *.facebook.com
 157.240.7.35 messenger.com
 157.240.7.35 cdn.fbsbx.com
 157.240.7.35 www.messenger.com
@@ -7451,6 +7467,7 @@
 157.240.7.35 7-edge-chat.messenger.com
 157.240.7.35 8-edge-chat.messenger.com
 157.240.7.35 9-edge-chat.messenger.com
+157.240.7.35 *.messenger.com
 157.240.7.35 0-edge-chat.facebook.com
 157.240.7.35 1-edge-chat.facebook.com
 157.240.7.35 2-edge-chat.facebook.com
@@ -7515,6 +7532,7 @@
 203.78.36.36 photos-f.ak.fbcdn.net
 203.78.36.36 photos-g.ak.fbcdn.net
 203.78.36.36 photos-h.ak.fbcdn.net
+203.78.36.36 *.fbcdn.net
 203.78.36.36 fbstatic-a.akamaihd.net
 203.78.36.36 fbexternal-a.akamaihd.net
 203.78.36.36 fbcdn-vthumb-a.akamaihd.net
@@ -7554,6 +7572,7 @@
 203.78.36.36 fbcdn-video-n-a.akamaihd.net
 203.78.36.36 fbcdn-video-o-a.akamaihd.net
 203.78.36.36 fbcdn-video-p-a.akamaihd.net
+203.78.36.36 *.akamaihd.net
 219.76.10.48 fb-s-a-a.akamaihd.net
 219.76.10.48 fb-s-b-a.akamaihd.net
 219.76.10.48 fb-s-c-a.akamaihd.net
@@ -7716,6 +7735,7 @@
 219.76.10.48	photos-f.ak.fbcdn.net
 219.76.10.48	photos-g.ak.fbcdn.net
 219.76.10.48	photos-h.ak.fbcdn.net
+219.76.10.48	*.fbcdn.net
 219.76.10.48	fbcdn-vthumb-a.akamaihd.net
 219.76.10.48	fbcdn-dragon-a.akamaihd.net
 219.76.10.48	fbcdn-creative-a.akamaihd.net
@@ -7752,38 +7772,39 @@
 219.76.10.48	fbcdn-video-n-a.akamaihd.net
 219.76.10.48	fbcdn-video-o-a.akamaihd.net
 219.76.10.48	fbcdn-video-p-a.akamaihd.net
+219.76.10.48	*.akamaihd.net
 219.76.10.48	ent-a.xx.fbcdn.net
 219.76.10.48	ent-b.xx.fbcdn.net
 219.76.10.48	ent-c.xx.fbcdn.net
 219.76.10.48	ent-d.xx.fbcdn.net
 219.76.10.48	ent-e.xx.fbcdn.net
-119.161.14.17	tumblr.com
-119.161.14.17	api.tumblr.com
-119.161.14.17	www.tumblr.com
+119.161.9.50	tumblr.com
+119.161.9.50	api.tumblr.com
+119.161.9.50	www.tumblr.com
 192.229.237.97 	cynicallys.tumblr.com
 192.229.237.97	mx.tumblr.com
 66.6.32.162     t.umblr.com
-119.161.14.17	vt.tumblr.com
-119.161.14.17	vt.media.tumblr.com
-119.161.14.17	vtt.tumblr.com
+119.161.9.50	vt.tumblr.com
+119.161.9.50	vt.media.tumblr.com
+119.161.9.50	vtt.tumblr.com
 66.6.32.162	    ls.srvcs.tumblr.com
 66.6.32.162  	px.srvcs.tumblr.com
 66.6.32.162     saber.srvcs.tumblr.com
-119.161.14.17	assets.tumblr.com
-119.161.14.17	secure.assets.tumblr.com
+119.161.9.50	assets.tumblr.com
+119.161.9.50	secure.assets.tumblr.com
 52.222.211.243  secure.static.tumblr.com
-119.161.14.17   static.tumblr.com
+119.161.9.50   static.tumblr.com
 52.85.245.124	media.tumblr.com
 54.239.176.79	24.media.tumblr.com
 192.229.237.98	30.media.tumblr.com
-119.161.14.17	31.media.tumblr.com
+119.161.9.50	31.media.tumblr.com
 54.239.176.79	32.media.tumblr.com
-119.161.14.17	33.media.tumblr.com
-119.161.14.17	34.media.tumblr.com
-119.161.14.17	35.media.tumblr.com
-119.161.14.17	36.media.tumblr.com
-119.161.14.17	37.media.tumblr.com
-119.161.14.17	38.media.tumblr.com
+119.161.9.50	33.media.tumblr.com
+119.161.9.50	34.media.tumblr.com
+119.161.9.50	35.media.tumblr.com
+119.161.9.50	36.media.tumblr.com
+119.161.9.50	37.media.tumblr.com
+119.161.9.50	38.media.tumblr.com
 209.197.3.20	39.media.tumblr.com
 192.229.237.98	40.media.tumblr.com
 209.197.3.20	41.media.tumblr.com
@@ -7792,22 +7813,23 @@
 192.229.237.98	44.media.tumblr.com
 209.197.3.20	45.media.tumblr.com
 192.229.237.98	46.media.tumblr.com
-119.161.14.17	47.media.tumblr.com
+119.161.9.50	47.media.tumblr.com
 209.197.3.20	48.media.tumblr.com
 192.229.237.98	49.media.tumblr.com
 54.192.234.244	50.media.tumblr.com
 54.239.176.79	65.media.tumblr.com
 192.229.237.98	66.media.tumblr.com
 209.197.3.20	67.media.tumblr.com
-119.161.14.17	68.media.tumblr.com
+119.161.9.50	68.media.tumblr.com
 69.147.82.56	90.media.tumblr.com
-119.161.14.17   92.media.tumblr.com
+119.161.9.50   92.media.tumblr.com
 128.127.159.1	94.media.tumblr.com
 149.135.80.18   95.media.tumblr.com
 54.239.176.79	96.media.tumblr.com
 192.229.237.98	97.media.tumblr.com
 151.101.96.249	98.media.tumblr.com
 209.197.3.20	99.media.tumblr.com
+119.161.9.50	*.tumblr.com
 157.240.7.52 instagram.com
 157.240.7.52 www.instagram.com
 157.240.7.52 i.instagram.com
@@ -7819,6 +7841,7 @@
 157.240.7.52 badges.instagram.com
 157.240.7.52 platform.instagram.com
 157.240.7.52 maps.instagram.com
+157.240.7.52 *.instagram.com
 157.240.7.52 scontent.cdninstagram.com
 157.240.7.52 scontent-a.cdninstagram.com
 157.240.7.52 scontent-b.cdninstagram.com
@@ -7826,6 +7849,7 @@
 157.240.7.52 scontent-hkg3-1.cdninstagram.com
 157.240.7.52 scontent-fra3-1.cdninstagram.com
 157.240.7.52 scontent-sit4-1.cdninstagram.com
+157.240.7.52 *.cdninstagram.com
 173.252.91.113 telegraph-ash.instagram.com
 34.205.123.65 telegraph-tiproxy.instagram.com
 184.51.15.142 igcdn-photos-a-a.akamaihd.net
@@ -8168,6 +8192,7 @@
 184.51.15.142 videos-h-19.ak.instagram.com
 184.51.15.142 images.ak.instagram.com
 184.51.15.142 static.ak.instagram.com
+184.51.15.142 *.ak.instagram.com
 219.76.10.49 static.ak.instagram.com
 219.76.10.49 ig-l-a-a.akamaihd.net
 219.76.10.49 ig-l-b-a.akamaihd.net
@@ -8208,6 +8233,7 @@
 149.154.167.124  vesta.web.telegram.org
 149.154.167.124  vesta-1.web.telegram.org
 149.154.167.118  telegram.me
+149.154.167.99 	 *telegram
 108.160.173.193	api.dropbox.com
 108.160.173.193	api-d.dropbox.com
 108.160.173.193	api.dropboxapi.com
@@ -8251,11 +8277,13 @@
 108.160.173.239	www.dropbox.com
 108.160.173.193	www.v.dropbox.com
 108.160.173.193	www.dropbox-dns.com
+108.160.173.193	*.dropbox.com
 162.125.3.6 	dl.dropboxusercontent.com
 104.16.100.29	www.dropboxstatic.com
 104.16.100.29	cfl.dropboxstatic.com
 104.16.100.29	cf.dropboxstatic.com
 104.16.100.29	dbxlocal.dropboxstatic.com
+104.16.100.29	*.dropboxstatic.com
 104.16.100.29	log.getdropbox.com
 106.10.193.20 mail.yahoo.com
 106.10.193.20 hk-mg61.mail.yahoo.com
@@ -8955,3 +8983,4 @@
 151.101.64.84	no.pinterest.com
 151.101.64.84	engineering.pinterest.com
 151.101.64.84	ak.pinterest.com
+151.101.64.84	*.pinterest.com
