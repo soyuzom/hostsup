@@ -6,7 +6,7 @@ set hostsfile="%SYSTEMROOT%\System32\Drivers\etc\hosts"
 set dowhosts="%temp%\dowhosts.vbs"
 set "hoststwo=::"
 set "TT=替换" & set "TT2=::"
-title Hosts远程下载更新工具5.4
+title Hosts远程下载更新工具5.5
 :main
 mode con lines=31 cols=60
 if /i not exist defined_hosts.txt goto defined_hosts >NUL 2>NUL
@@ -58,17 +58,20 @@ cls
 echo.-----------------------------------------------------------
 echo. 选择更新源：
 echo.
-echo.  [1] Go-Hosts   [2] Racaljk
+echo.  [1] Go-Hosts           [2] Racaljk
 echo.  [3] Go-Hosts + Racaljk
+echo.  [4] SY168 FQ1          [5]SY168 FQ2
 echo.
 echo.  [T] 选择更新方式:^<%TT%^>
 echo.
 echo.-------------------------------------------------idoog.me--
-set ID=1
-set /p ID=请输入选项(回车=1):
+set ID=4
+set /p ID=请输入选项(回车=4):
 if /i %ID%==1 set "hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts" && goto hostAD
 if /i %ID%==2 set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts" && goto hostAD
 if /i %ID%==3 set "hoststwo=" & set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts" & set "hosts1=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts" && goto hostAD
+if /i %ID%==4 set "hosts0=https://github.com/sy618/hosts/raw/master/FQ" && goto hostAD
+if /i %ID%==5 set "hosts0=https://github.com/sy618/hosts/raw/master/FQ1" && goto hostAD
 ::
 %TT2%if /i %ID%==T set "TT=替换" & set "TT2=::" && goto host DNS
 if /i %ID%==T set "TT=叠加" & set "TT2=" && goto host DNS
@@ -239,7 +242,6 @@ echo.
 echo    底部输入自定义的HOSTS链接，可以输入任意链接，或：
 echo.
 echo.   回车后默认为：
-::echo.   http://idoog.me/hosts
 echo.   https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts
 echo.
 echo.   输入:T   选择更新方式:^<%TT%^>
