@@ -6,7 +6,7 @@ set hostsfile="%SYSTEMROOT%\System32\Drivers\etc\hosts"
 set dowhosts="%temp%\dowhosts.vbs"
 set "hoststwo=::"
 set "TT=替换" & set "TT2=::"
-title Hosts远程下载更新工具5.5
+title Hosts远程下载更新工具5.6
 :main
 mode con lines=31 cols=60
 if /i not exist defined_hosts.txt goto defined_hosts >NUL 2>NUL
@@ -47,6 +47,7 @@ if /i %choice%==3 start "" explorer.exe /select,defined_hosts.txt && goto main
 if /i %choice%==1 goto host DNS
 %TT2%if /i %choice%==T set "TT=替换" & set "TT2=::" && goto main
 if /i %choice%==T set "TT=叠加" & set "TT2=" && goto main
+if /i %ID%==C ( copy /y "defined_hosts.txt" %hostsfile% >NUL 2>NUL||takeown /f "%hostsfile%" && icacls "%hostsfile%" /grant administrators:F && attrib -r -h -s "%hostsfile%" && echo. && cls && copy /y "defined_hosts.txt" %hostsfile% & set cc=:: & goto OKhosts )
 set "choice="
 echo. 输入有误，请重新选择。
 ping 127.0.1 -n "3">nul
@@ -60,7 +61,8 @@ echo. 选择更新源：
 echo.
 echo.  [1] Go-Hosts           [2] Racaljk
 echo.  [3] Go-Hosts + Racaljk
-echo.  [4] SY168 FQ1          [5]SY168 FQ2
+echo.  [4] SY168 FQ1
+echo.  [C] 仅使用自定义的HOSTS (defined_hosts.txt)
 echo.
 echo.  [T] 选择更新方式:^<%TT%^>
 echo.
@@ -71,8 +73,8 @@ if /i %ID%==1 set "hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/host
 if /i %ID%==2 set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts" && goto hostAD
 if /i %ID%==3 set "hoststwo=" & set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts" & set "hosts1=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts" && goto hostAD
 if /i %ID%==4 set "hosts0=https://github.com/sy618/hosts/raw/master/FQ" && goto hostAD
-if /i %ID%==5 set "hosts0=https://github.com/sy618/hosts/raw/master/FQ1" && goto hostAD
-::
+if /i %ID%==C ( copy /y "defined_hosts.txt" %hostsfile% >NUL 2>NUL||takeown /f "%hostsfile%" && icacls "%hostsfile%" /grant administrators:F && attrib -r -h -s "%hostsfile%" && echo. && cls && copy /y "defined_hosts.txt" %hostsfile% & set cc=:: & goto OKhosts )
+
 %TT2%if /i %ID%==T set "TT=替换" & set "TT2=::" && goto host DNS
 if /i %ID%==T set "TT=叠加" & set "TT2=" && goto host DNS
 goto host DNS
@@ -144,21 +146,22 @@ echo.# 已替换HOSTS到系统。
 echo.
 ping 127.1 -n 2 >nul
 ::刷新 DNS 解析缓存
+:OKhosts
 ipconfig /flushdns >NUL
 ping 127.1 -n 1 >nul
 echo.# 已成功刷新 DNS 解析缓存。
 del /f /q hosts>NUL 2>NUL
 del /f /q %dowhosts% >NUL 2>NUL
-echo.-----------------------------------------------------------
+%cc%echo.-----------------------------------------------------------
 echo.
 echo  覆盖本地hosts并刷新本地DNS解析缓存成功!
-echo  现在去打开Google、Twitter、Facebook、Gmail、谷歌学术吧！
-echo. 谷歌这些网站记得使用https进行加密访问！
-echo.
-echo.  即：https://www.google.com
-echo.
-echo.  或者：https://www.google.com/ncr
-echo.        https://www.google.com.hk/ncr
+%cc%echo  现在去打开Google、Twitter、Facebook、Gmail、谷歌学术吧！
+%cc%echo. 谷歌这些网站记得使用https进行加密访问！
+%cc%echo.
+%cc%echo.  即：https://www.google.com
+%cc%echo.
+%cc%echo.  或者：https://www.google.com/ncr
+%cc%echo.        https://www.google.com.hk/ncr
 echo.
 echo.-------------------------------------------------idoog.me--
 echo.
