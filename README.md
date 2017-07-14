@@ -15,11 +15,21 @@
 
 ---------------------------------------------------------------
 
-**5.6 20170701**
+###5.7 20170709###
 
-*新增，仅使用自定义HOSTS*
+新增，可选择创建桌面快捷方式
 
-*去除，sy618 一个源*
+新增，SY618的Play和Youtube独立源
+
+
+5.6 20170701
+
+新增，仅使用自定义HOSTS
+
+新增，HOSTS更新方式，可选替换还是叠加
+
+去除，sy618 一个源
+
 
 
 **5.5   20170628**
@@ -71,11 +81,10 @@
 
 
 
-非常感谢！
+非常感谢:
 _______
 
 * Go-Hosts (https://github.com/Lerist/Go-Hosts)
-* Racaljk (https://github.com/racaljk/hosts)
 * Scaffrey (https://coding.net/u/scaffrey)
 * Yhosts (https://github.com/vokins/yhosts)
 * SY618 (https://github.com/sy618)
