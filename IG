@@ -1,5 +1,5 @@
 # Instagram Start
-157.240.7.52 l.instagram.com
+184.51.15.142 l.instagram.com
 # Instagram End
 
 104.16.48.55	roomimg.stream.highwebmedia.com
