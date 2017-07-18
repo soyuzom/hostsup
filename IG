@@ -8,8 +8,8 @@
 104.16.147.241	*.chaturbate.com
 104.16.147.241	chaturbate.com
 104.16.147.241	zh.chaturbate.com
-104.16.146.241	de.chaturbate.com
-104.16.146.241	m.chaturbate.com
+104.16.147.241	de.chaturbate.com
+104.16.147.241	m.chaturbate.com
 52.85.85.164    cbpv.chaturbate.com
 104.16.107.24	public.chaturbate.com
 64.38.230.2	www.chaturbategirls.com
