@@ -1,3 +1,13 @@
+192.124.249.10    androidfilehost.com
+199.115.114.221    dc1.androidfilehost.com
+149.202.17.192    de1.androidfilehost.com
+167.114.65.90    qc3.androidfilehost.com
+167.114.65.91    qc4.androidfilehost.com
+209.58.144.195    tx1.androidfilehost.com
+17.137.163.1    gs.apple.com
+209.58.128.90    xda-developers.com
+207.244.72.9    forum.xda-developers.com
+157.240.11.52    l.instagram.com
 104.16.48.55	roomimg.stream.highwebmedia.com
 64.38.230.2	highwebmedia.com
 64.38.230.2	stream.highwebmedia.com
@@ -31,4 +41,3 @@
 52.85.82.205    d5nxst8fruw4z.cloudfront.net
 52.85.82.137    d31qbv1cthcecs.cloudfront.net
 52.85.82.137    *.cloudfront.net
-157.240.11.52    l.instagram.com
