@@ -41,3 +41,5 @@
 52.85.82.205    d5nxst8fruw4z.cloudfront.net
 52.85.82.137    d31qbv1cthcecs.cloudfront.net
 52.85.82.137    *.cloudfront.net
+198.252.106.23	serve.netsh.org
+66.71.250.27	greasyfork.org
