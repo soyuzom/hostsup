@@ -9,7 +9,7 @@ set "TT=替换" & set "TT2=::"
 title Hosts远程下载更新工具5.7
 :main
 mode con lines=31 cols=60
-if /i not exist defined_hosts.txt goto defined_hosts >NUL 2>NUL
+if /i not exist Defined_Hosts.txt goto Defined_Hosts >NUL 2>NUL
 cls
 color 5f
 echo.-----------------------------------------------------------
@@ -26,15 +26,15 @@ echo.
 echo.----------------------------------------------------------- 
 echo. 360、电脑管家等安全软件提醒，请勾选信任允许和不再提醒！
 echo.
-echo. 如果自己修改过hosts信息，请复制到 defined_hosts.txt
-echo. [defined_hosts.txt]文件可自定义hosts，更新会自动合并。
+echo. 如果自己修改过hosts信息，请复制到 Defined_Hosts.txt
+echo. [Defined_Hosts.txt]文件可自定义hosts，更新会自动合并。
 echo. 开源：https://coding.net/u/idoog/p/HOSTS
 echo.
 echo.-----------------------------------------------------------
 echo. 请选择使用：
 echo.
 echo.  [1] 远程下载更新 HOSTS     [T] 设置更新方式:^<%TT%^>
-echo.  [2] 自定义 HOSTS 链接      [3] 打开 defined_hosts.txt
+echo.  [2] 自定义 HOSTS 链接      [3] 打开 Defined_Hosts.txt
 echo.  [4] 恢复初始 HOSTS         [5] 打开系统 HOSTS 目录
 echo.  [6] 创建桌面快捷方式
 echo.
@@ -45,11 +45,11 @@ if /i %choice%==6 goto DesktopLnk
 if /i %choice%==5 start "" explorer.exe /select,%hostsfile% && goto main
 if /i %choice%==4 goto CL
 if /i %choice%==2 goto customize
-if /i %choice%==3 start "" explorer.exe /select,defined_hosts.txt && goto main
+if /i %choice%==3 start "" explorer.exe /select,Defined_Hosts.txt && goto main
 if /i %choice%==1 goto host DNS
 %TT2%if /i %choice%==T set "TT=替换" & set "TT2=::" && goto main
 if /i %choice%==T set "TT=叠加" & set "TT2=" && goto main
-if /i %choice%==C ( copy /y "defined_hosts.txt" %hostsfile% >NUL 2>NUL||takeown /f "%hostsfile%" && icacls "%hostsfile%" /grant administrators:F && attrib -r -h -s "%hostsfile%" && echo. && cls && copy /y "defined_hosts.txt" %hostsfile% & set cc=:: & goto OKhosts )
+if /i %choice%==C ( copy /y "Defined_Hosts.txt" %hostsfile% >NUL 2>NUL||takeown /f "%hostsfile%" && icacls "%hostsfile%" /grant administrators:F && attrib -r -h -s "%hostsfile%" && echo. && cls && copy /y "Defined_Hosts.txt" %hostsfile% & set cc=:: & goto OKhosts )
 set "choice="
 echo. 输入有误，请重新选择。
 ping 127.0.1 -n "3">nul
@@ -61,25 +61,28 @@ cls
 echo.-----------------------------------------------------------
 echo. 选择更新源：
 echo.
-echo.  [1] Go-Hosts           [2] Racaljk (更新稳定)
+echo.  [1] Go-Hosts           [2] Racaljk (稳定)
 echo.  [3] Go-Hosts + Racaljk
-echo.  [4] SY168  =^>[41]Google Play  =^>[42]YouTuBe (链接速度快) 
+echo.  [4] SY168   =^>[41]Google Play   =^>[42]YouTuBe
+echo.  [5] Instagram + chaturbate
 echo.
-echo.  [C] 仅使用自定义的HOSTS (defined_hosts.txt)
+echo.  [C] 仅使用自定义的HOSTS (Defined_Hosts.txt)
 echo.
 echo.  [T] 设置更新方式:^<%TT%^>
 echo.-------------------------------------------------idoog.me--
-set ID=4
-set /p ID=请输入选项(回车=4):
+set ID=2
+set /p ID=请输入选项(回车=2):
 if /i %ID%==1 set "hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts" && goto hostAD
-if /i %ID%==2 set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts" && goto hostAD
+if /i %ID%==2 set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts-files/hosts" && goto hostAD
 ::if /i %ID%==2 set "hosts0=https://github.com/racaljk/hosts/raw/master/hosts" && goto hostAD
-if /i %ID%==3 set "hoststwo=" & set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts" & set "hosts1=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts" && goto hostAD
+if /i %ID%==3 set "hoststwo=" & set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts-files/hosts" & set "hosts1=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts" && goto hostAD
 ::if /i %ID%==4 set "hosts0=https://github.com/sy618/hosts/raw/master/FQ" && goto hostAD
 if /i %ID%==4 set "hosts0=https://raw.githubusercontent.com/sy618/hosts/master/FQ" && goto hostAD
 if /i %ID%==41 set "hosts0=https://raw.githubusercontent.com/sy618/hosts/master/p" && goto hostAD
 if /i %ID%==42 set "hosts0=https://raw.githubusercontent.com/sy618/hosts/master/y" && goto hostAD
-if /i %ID%==C ( copy /y "defined_hosts.txt" %hostsfile% >NUL 2>NUL||takeown /f "%hostsfile%" && icacls "%hostsfile%" /grant administrators:F && attrib -r -h -s "%hostsfile%" && echo. && cls && copy /y "defined_hosts.txt" %hostsfile% & set cc=:: & goto OKhosts )
+if /i %ID%==5 set "hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/IG" && goto hostAD
+if /i %ID%==6 set "hosts0=https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts" && goto hostAD
+if /i %ID%==C ( copy /y "Defined_Hosts.txt" %hostsfile% >NUL 2>NUL||takeown /f "%hostsfile%" && icacls "%hostsfile%" /grant administrators:F && attrib -r -h -s "%hostsfile%" && echo. && cls && copy /y "Defined_Hosts.txt" %hostsfile% & set cc=:: & goto OKhosts )
 
 %TT2%if /i %ID%==T set "TT=替换" & set "TT2=::" && goto host DNS
 if /i %ID%==T set "TT=叠加" & set "TT2=" && goto host DNS
@@ -132,7 +135,7 @@ echo download "%hosts0%","%cd%\host" >> %dowhosts%
 %dowhosts%
 if /i not exist host goto nohost >NUL 2>NUL
 %TT2%type %hostsfile%>>hosts
-type defined_hosts.txt>>hosts&&echo.>>hosts&&echo.>>hosts&&echo.>>hosts&&echo.>>hosts&&type host>>hosts&&del /f /q host
+type Defined_Hosts.txt>>hosts&&echo.>>hosts&&echo.>>hosts&&echo.>>hosts&&echo.>>hosts&&type host>>hosts&&del /f /q host
 if /i exist host1 ( copy/ b /y hosts+host1 && del /f /q host1 ) >NUL 2>NUL
 if /i exist host2 ( copy/ b /y hosts+host2 && del /f /q host2 ) >NUL 2>NUL
 if /i exist host3 ( copy/ b /y hosts+host3 && del /f /q host3 ) >NUL 2>NUL
@@ -220,14 +223,14 @@ echo.
 Pause>nul
 goto main
 
-:defined_hosts
+:Defined_Hosts
 (
 echo #用户自定义hosts，建议使用notepad++编辑器编辑
 echo #请在本行后填入自定义hosts
 echo.
 echo.
 echo.
-)>defined_hosts.txt
+)>Defined_Hosts.txt
 goto main
 
 :nohost
@@ -240,6 +243,10 @@ echo.
 echo.-------------------------------------------------idoog.me--
 echo.
 echo.
+echo 请按任意键返回
+echo.
+Pause>nul
+goto main
 echo 请按任意键退出。
 Pause>nul
 exit
@@ -264,8 +271,8 @@ set hosts0=%hostsX%
 goto hostAD
 
 
-:gotodefined_hosts
-start "" explorer.exe /select,defined_hosts.txt && goto main
+:gotoDefined_Hosts
+start "" explorer.exe /select,Defined_Hosts.txt && goto main
 
 :DesktopLnk
 mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\Hosts远程下载更新工具.lnk""):b.TargetPath=""%~dp0Hostsup.bat"":b.WorkingDirectory=""%~dp0"":b.Save:close")&echo. &echo.   完成!&&ping 127.1 -n 2 >nul&&GOTO main
