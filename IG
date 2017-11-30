@@ -45,5 +45,7 @@
 52.85.82.137    *.cloudfront.net
 66.71.250.27    greasyfork.org
 52.84.43.162      front.battlegroundsgame.com
+104.31.70.245    www.javhoo.com
+158.255.3.135    www.javhoo.co
 
 
