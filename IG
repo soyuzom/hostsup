@@ -1,3 +1,6 @@
+#用户自定义hosts，建议使用notepad++编辑器编辑
+#请在本行后填入自定义hosts
+
 192.124.249.10	androidfilehost.com
 199.115.114.221	dc1.androidfilehost.com
 149.202.17.192	de1.androidfilehost.com
@@ -8,16 +11,36 @@
 209.58.128.90	xda-developers.com
 207.244.72.9	forum.xda-developers.com
 157.240.11.52	l.instagram.com
+23.235.225.42    cbjpeg.stream.highwebmedia.com
+131.153.29.138    edge64.stream.highwebmedia.com
+104.16.47.23    ssl-ccstatic.highwebmedia.com
+104.20.17.63    chaturbatestore.com
+104.16.146.241    chaturbate.com
+104.16.147.241    www.chaturbate.com
+50.18.156.150    support.chaturbate.com
+104.16.147.241    blog.chaturbate.com
+54.230.87.126    cbpv.chaturbate.com
+104.16.107.24    public.chaturbate.com
+104.16.147.241    ar.chaturbate.com
+104.16.147.241    de.chaturbate.com
+104.16.146.241    en.chaturbate.com
+104.16.147.241    ei.chaturbate.com
+104.16.146.241    es.chaturbate.com
+104.16.146.241    fr.chaturbate.com
+104.16.146.241    hi.chaturbate.com
+104.16.147.241    it.chaturbate.com
+104.16.147.241    jp.chaturbate.com
+104.16.147.241    ko.chaturbate.com
+104.16.147.241    nl.chaturbate.com
+104.16.146.241    pt.chaturbate.com
+104.16.147.241    ru.chaturbate.com
+104.16.147.241    tr.chaturbate.com
+104.16.146.241    zh.chaturbate.com
+104.16.147.241    m.chaturbate.com
+104.16.47.23	www.highwebmedia.com
 104.16.48.55	roomimg.stream.highwebmedia.com
 64.38.230.2	highwebmedia.com
 64.38.230.2	stream.highwebmedia.com
-104.16.147.241	*.chaturbate.com
-104.16.147.241	chaturbate.com
-104.16.147.241	zh.chaturbate.com
-104.16.147.241	de.chaturbate.com
-104.16.147.241	m.chaturbate.com
-52.85.85.164    cbpv.chaturbate.com
-104.16.107.24	public.chaturbate.com
 64.38.230.2	www.chaturbategirls.com
 64.38.230.2	chaturbategirls.com
 104.192.143.1	bitbucket.org
@@ -37,7 +60,7 @@
 52.85.82.137	*.cloudfront.net
 66.71.250.27	greasyfork.org
 52.84.43.162	front.battlegroundsgame.com
-104.31.70.245	www.javhoo.com
+104.31.71.245	www.javhoo.com
 158.255.3.135	www.javhoo.co
 119.28.73.140	www.repaik.com
 0.0.0.0		www.xiacai.com
