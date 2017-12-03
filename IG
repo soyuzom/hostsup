@@ -77,3 +77,6 @@
 0.0.0.0		www.tuia.cn
 0.0.0.0		www.ltheanine.cn
 0.0.0.0		www.jdkic.com
+127.0.0.1  z.code.zantainet.com
+127.0.0.1  code.zantainet.com
+127.0.0.1  zantainet.com
