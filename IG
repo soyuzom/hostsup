@@ -81,3 +81,6 @@
 74.120.8.14	my.pcloud.com
 74.120.8.13	www.pcloud.com
 74.120.8.7	pcloud.com
+104.19.135.58    www.apkmirror.com
+104.19.132.58    apkmirror.com
+
