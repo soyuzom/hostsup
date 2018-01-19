@@ -83,4 +83,14 @@
 74.120.8.7	pcloud.com
 104.19.135.58    www.apkmirror.com
 104.19.132.58    apkmirror.com
+104.31.71.245	javhoo.com
+104.31.71.245	www.javhoo.com
+202.6.247.66	pics.dmm.co.jp
+202.6.246.29	www.dmm.co.jp
+203.209.152.60	dmm.co.jp
+104.31.76.233	pics.javhoo.net
+104.31.76.233	javhoo.net
+104.31.76.233	www.javhoo.net
+
+
 
