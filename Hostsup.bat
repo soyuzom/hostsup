@@ -6,14 +6,13 @@ set hostsfile="%SYSTEMROOT%\System32\Drivers\etc\hosts"
 set dowhosts="%temp%\dowhosts.vbs"
 set "hoststwo=::"
 set "TT=替换" & set "TT2=::"
-title Hosts远程下载更新工具5.7
+title Hosts远程下载更新工具6.1
 :main
 mode con lines=31 cols=60
 if /i not exist Defined_Hosts.txt goto Defined_Hosts >NUL 2>NUL
 cls
 color 5f
 echo.-----------------------------------------------------------
-echo.
 echo  √    √     √√√      √√√√  √√√√√    √√√√
 echo  √    √   √      √  √      √  √  √  √  √      √
 echo  √    √   √      √  √              √      √
@@ -22,30 +21,33 @@ echo  √    √   √      √        √        √            √
 echo  √    √   √      √          √      √              √
 echo  √    √   √      √  √      √      √      √      √
 echo  √    √     √√√     √√√√       √       √√√√
-echo.
 echo.----------------------------------------------------------- 
-echo. 360、电脑管家等安全软件提醒，请勾选信任允许和不再提醒！
-echo.
 echo. 如果自己修改过hosts信息，请复制到 Defined_Hosts.txt
 echo. [Defined_Hosts.txt]文件可自定义hosts，更新会自动合并。
 echo. 开源：https://coding.net/u/idoog/p/HOSTS
 echo.
+echo. 360、电脑管家等安全软件提醒，请勾选信任允许和不再提醒！
 echo.-----------------------------------------------------------
-echo. 请选择使用：
+echo. 请选择功能：
 echo.
 echo.  [1] 远程下载更新 HOSTS     [T] 设置更新方式:^<%TT%^>
-echo.  [2] 自定义 HOSTS 链接      [3] 打开 Defined_Hosts.txt
-echo.  [4] 恢复初始 HOSTS         [5] 打开系统 HOSTS 目录
-echo.  [6] 创建桌面快捷方式
+echo.  [2] 自定义HOSTS更新链接    [5] 打开 Defined_Hosts.txt
+echo.  [3] 恢复初始 HOSTS         [6] 打开系统 HOSTS 目录
+echo.  [4] 刷新 DNS 解析缓存      [7] 创建桌面快捷方式
 echo.
+set "ziti= 系统HOSTS更新时间："
+>"%ziti%" set /p=<nul
+findstr /a:5b .* "%ziti%*"  && if /i exist "%~dp0%ziti%" del /F /Q "%~dp0%ziti%" >NUL 2>NUL
+findstr /ic:"# 2018" "C:\Windows\System32\drivers\etc\hosts" & findstr /ic:"# 2017" "C:\Windows\System32\drivers\etc\hosts" & findstr /ic:"# Last updated:" "C:\Windows\System32\drivers\etc\hosts"
 echo.-------------------------------------------------idoog.me--
-set "choice=1
+set "choice=1"
 set /p choice=请输入选项(回车=1):
-if /i %choice%==6 goto DesktopLnk
-if /i %choice%==5 start "" explorer.exe /select,%hostsfile% && goto main
-if /i %choice%==4 goto CL
+if /i %choice%==4 ipconfig /flushdns && ping 127.1 -n 2 >nul && echo.# 已成功刷新 DNS 解析缓存。 && goto main
+if /i %choice%==7 goto DesktopLnk
+if /i %choice%==6 start "" explorer.exe /select,%hostsfile% && goto main
+if /i %choice%==3 goto CL
 if /i %choice%==2 goto customize
-if /i %choice%==3 start "" explorer.exe /select,Defined_Hosts.txt && goto main
+if /i %choice%==5 start "" explorer.exe /select,Defined_Hosts.txt && goto main
 if /i %choice%==1 goto host DNS
 %TT2%if /i %choice%==T set "TT=替换" & set "TT2=::" && goto main
 if /i %choice%==T set "TT=叠加" & set "TT2=" && goto main
@@ -61,10 +63,9 @@ cls
 echo.-----------------------------------------------------------
 echo. 选择更新源：
 echo.
-echo.  [1] Go-Hosts           [2] Racaljk (稳定)
+echo.  [1] Go-Hosts           [2]-[5] Racaljk (稳定) 
 echo.  [3] Go-Hosts + Racaljk
-echo.  [4] SY168   =^>[41]Google Play   =^>[42]YouTuBe
-echo.  [5] Instagram + chaturbate
+echo.  [4] INS...
 echo.
 echo.  [C] 仅使用自定义的HOSTS (Defined_Hosts.txt)
 echo.
@@ -76,19 +77,16 @@ if /i %ID%==1 set "hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/host
 if /i %ID%==2 set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts-files/hosts" && goto hostAD
 ::if /i %ID%==2 set "hosts0=https://github.com/racaljk/hosts/raw/master/hosts" && goto hostAD
 if /i %ID%==3 set "hoststwo=" & set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts-files/hosts" & set "hosts1=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts" && goto hostAD
-::if /i %ID%==4 set "hosts0=https://github.com/sy618/hosts/raw/master/FQ" && goto hostAD
-if /i %ID%==4 set "hosts0=https://raw.githubusercontent.com/sy618/hosts/master/FQ" && goto hostAD
-if /i %ID%==41 set "hosts0=https://raw.githubusercontent.com/sy618/hosts/master/p" && goto hostAD
-if /i %ID%==42 set "hosts0=https://raw.githubusercontent.com/sy618/hosts/master/y" && goto hostAD
-if /i %ID%==5 set "hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/IG" && goto hostAD
-if /i %ID%==6 set "hosts0=https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts" && goto hostAD
+if /i %ID%==4 set "hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/IG" && goto hostAD
+if /i %ID%==5 set "hosts0=https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts" && goto hostAD
 if /i %ID%==C ( copy /y "Defined_Hosts.txt" %hostsfile% >NUL 2>NUL||takeown /f "%hostsfile%" && icacls "%hostsfile%" /grant administrators:F && attrib -r -h -s "%hostsfile%" && echo. && cls && copy /y "Defined_Hosts.txt" %hostsfile% & set cc=:: & goto OKhosts )
 
 %TT2%if /i %ID%==T set "TT=替换" & set "TT2=::" && goto host DNS
 if /i %ID%==T set "TT=叠加" & set "TT2=" && goto host DNS
 goto host DNS
 :hostAD
-set "hosts2=https://github.com/vokins/yhosts/raw/master/hosts"
+::set "hosts2=https://github.com/vokins/yhosts/raw/master/hosts"
+set "hosts2=https://raw.githubusercontent.com/vokins/yhosts/master/hosts"
 echo.-----------------------------------------------------------
 echo.
 set "AD=n"
@@ -141,15 +139,19 @@ if /i exist host2 ( copy/ b /y hosts+host2 && del /f /q host2 ) >NUL 2>NUL
 if /i exist host3 ( copy/ b /y hosts+host3 && del /f /q host3 ) >NUL 2>NUL
 ::
 
-
 copy /y "hosts" %hostsfile% >NUL 2>NUL||takeown /f "%hostsfile%" && icacls "%hostsfile%" /grant administrators:F && attrib -r -h -s "%hostsfile%" && echo. && cls && copy /y "hosts" %hostsfile%
 IF %ERRORLEVEL% == 1 GOTO ERROR
 ::
-%ADs%echo # 广告源更新时间:
+
+%ADs%set "ziti=# 广告源更新时间："
+%ADs%>"%ziti%" set /p=<nul
+%ADs%findstr /a:5b .* "%ziti%*"  && if /i exist "%~dp0%ziti%" del /F /Q "%~dp0%ziti%" >NUL 2>NUL
 %ADs%findstr /ic:"#version" "C:\Windows\System32\drivers\etc\hosts"
-%ADs%echo.
-echo # HOSTS 更新时间:
-findstr /ic:"# 2017" "C:\Windows\System32\drivers\etc\hosts" & findstr /ic:"# Last updated:" "C:\Windows\System32\drivers\etc\hosts"
+
+set "ziti=# HOSTS 更新时间："
+>"%ziti%" set /p=<nul
+findstr /a:5b .* "%ziti%*"  && if /i exist "%~dp0%ziti%" del /F /Q "%~dp0%ziti%" >NUL 2>NUL
+findstr /ic:"# 2018" "C:\Windows\System32\drivers\etc\hosts" & findstr /ic:"# 2017" "C:\Windows\System32\drivers\etc\hosts" & findstr /ic:"# Last updated:" "C:\Windows\System32\drivers\etc\hosts"
 echo.
 echo.# 已替换HOSTS到系统。
 echo.
@@ -264,7 +266,7 @@ echo.   输入:T   设置更新方式:^<%TT%^>
 echo.
 echo.-------------------------------------------------idoog.me--
 set hostsX=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts
-set /p hostsX=HOSTS地址^>^>%=%
+set /p hostsX=输入HOSTS地址^>^>%=%
 %TT2%if /i %hostsX%==T set "TT=替换" & set "TT2=::" && goto customize
 if /i %hostsX%==T set "TT=叠加" & set "TT2=" && goto customize
 set hosts0=%hostsX%
