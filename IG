@@ -11,6 +11,8 @@
 209.58.128.90	xda-developers.com
 207.244.72.9	forum.xda-developers.com
 157.240.11.52	l.instagram.com
+#
+# 国外直播
 23.235.225.42    cbjpeg.stream.highwebmedia.com
 131.153.29.138    edge64.stream.highwebmedia.com
 104.16.47.23    ssl-ccstatic.highwebmedia.com
@@ -43,6 +45,7 @@
 64.38.230.2	stream.highwebmedia.com
 64.38.230.2	www.chaturbategirls.com
 64.38.230.2	chaturbategirls.com
+
 104.192.143.1	bitbucket.org
 104.192.143.3	www.bitbucket.org
 45.79.79.211	download.lineageos.org
@@ -60,6 +63,41 @@
 52.85.82.137	*.cloudfront.net
 66.71.250.27	greasyfork.org
 52.84.43.162	front.battlegroundsgame.com
+74.120.8.14	my.pcloud.com
+74.120.8.13	www.pcloud.com
+74.120.8.7	pcloud.com
+104.19.135.58    www.apkmirror.com
+104.19.132.58    apkmirror.com
+112.5.251.17    www.repaik.com
+23.236.77.135    repaik.com
+
+# 番号网
+104.31.71.245	javhoo.com
+104.31.71.245	www.javhoo.com
+202.6.247.66	pics.dmm.co.jp
+202.6.246.29	www.dmm.co.jp
+203.209.152.60	dmm.co.jp
+104.31.76.233	pics.javhoo.net
+104.31.76.233	javhoo.net
+104.31.76.233	www.javhoo.net
+
+# 远景论坛
+120.52.19.113    pcbeta.com
+120.52.19.113    uc.pcbeta.com
+120.52.19.113    m.pcbeta.com
+120.52.19.113    web.pcbeta.com
+120.52.19.113    i.pcbeta.com
+120.52.19.113    bbs.pcbeta.com
+120.52.19.113    www.pcbeta.com
+218.93.127.135    cdn.pcbeta.attachment.inimc.com
+218.93.127.135    cdn.pcbeta.static.inimc.com
+218.93.127.135    cdn.pcbeta.css.inimc.com
+218.93.127.135    cdn.pcbeta.js.inimc.com
+218.93.127.135    cdn.pcbeta.img.inimc.com
+120.52.19.113    static.template.pcbeta.com
+120.52.19.113    so.pcbeta.com
+
+# 屏蔽网站
 127.0.0.1	www.xiacai.com
 127.0.0.1	xiacai.com
 127.0.0.1	www.hao123.com
@@ -77,19 +115,8 @@
 127.0.0.1	z.code.zantainet.com
 127.0.0.1	code.zantainet.com
 127.0.0.1	zantainet.com
-74.120.8.14	my.pcloud.com
-74.120.8.13	www.pcloud.com
-74.120.8.7	pcloud.com
-104.19.135.58    www.apkmirror.com
-104.19.132.58    apkmirror.com
-104.31.71.245	javhoo.com
-104.31.71.245	www.javhoo.com
-202.6.247.66	pics.dmm.co.jp
-202.6.246.29	www.dmm.co.jp
-203.209.152.60	dmm.co.jp
-104.31.76.233	pics.javhoo.net
-104.31.76.233	javhoo.net
-104.31.76.233	www.javhoo.net
+#
+#
 
 
 
