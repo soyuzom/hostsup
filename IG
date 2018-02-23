@@ -47,7 +47,7 @@
 104.16.146.241	zh.chaturbate.com
 104.16.147.241	m.chaturbate.com
 104.16.47.23	www.highwebmedia.com
-104.16.48.55	roomimg.stream.highwebmedia.com
+104.16.47.55	roomimg.stream.highwebmedia.com
 64.38.230.2	highwebmedia.com
 64.38.230.2	stream.highwebmedia.com
 64.38.230.2	www.chaturbategirls.com
