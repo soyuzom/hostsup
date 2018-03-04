@@ -13,12 +13,11 @@
 157.240.11.52	l.instagram.com
 104.192.143.1	bitbucket.org
 104.192.143.3	www.bitbucket.org
-74.120.8.14	my.pcloud.com
+74.120.8.14 my.pcloud.com
 74.120.8.13	www.pcloud.com
 74.120.8.7	pcloud.com
-149.154.167.99    telegram.org
-149.154.167.120    web.telegram.org
-
+149.154.167.99	telegram.org
+149.154.167.120	web.telegram.org
 #
 # 国外直播
 23.235.225.42	cbjpeg.stream.highwebmedia.com
@@ -53,7 +52,6 @@
 64.38.230.2	stream.highwebmedia.com
 64.38.230.2	www.chaturbategirls.com
 64.38.230.2	chaturbategirls.com
-
 45.79.79.211	download.lineageos.org
 192.99.39.68	mirrorbits.lineageos.org
 45.79.90.247	www.lineageos.org
@@ -71,7 +69,6 @@
 52.84.43.162	front.battlegroundsgame.com
 104.19.135.58	www.apkmirror.com
 104.19.132.58	apkmirror.com
-
 # 番号网
 104.31.71.245	javhoo.com
 104.31.71.245	www.javhoo.com
@@ -81,7 +78,6 @@
 104.31.76.233	pics.javhoo.net
 104.31.76.233	javhoo.net
 104.31.76.233	www.javhoo.net
-
 # 远景论坛
 120.52.19.113	pcbeta.com
 120.52.19.113	uc.pcbeta.com
@@ -97,7 +93,6 @@
 218.93.127.135	cdn.pcbeta.img.inimc.com
 120.52.19.113	static.template.pcbeta.com
 120.52.19.113	so.pcbeta.com
-
 # 屏蔽网站
 127.0.0.1	www.xiacai.com
 127.0.0.1	xiacai.com
@@ -113,9 +108,13 @@
 127.0.0.1	www.tuia.cn
 127.0.0.1	www.ltheanine.cn
 127.0.0.1	www.jdkic.com
+127.0.0.1	tuia.cn
+127.0.0.1	ltheanine.cn
+127.0.0.1	jdkic.com
 127.0.0.1	z.code.zantainet.com
 127.0.0.1	code.zantainet.com
 127.0.0.1	zantainet.com
+127.0.0.1	hao643.com
+127.0.0.1	www.hao643.com
 #
 #
-
