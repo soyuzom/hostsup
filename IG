@@ -16,8 +16,6 @@
 74.120.8.14	my.pcloud.com
 74.120.8.13	www.pcloud.com
 74.120.8.7	pcloud.com
-112.5.251.17	www.repaik.com
-23.236.77.135	repaik.com
 149.154.167.99    telegram.org
 149.154.167.120    web.telegram.org
 
