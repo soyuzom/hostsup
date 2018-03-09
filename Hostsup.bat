@@ -6,7 +6,7 @@ set hostsfile="%SYSTEMROOT%\System32\Drivers\etc\hosts"
 set dowhosts="%temp%\dowhosts.vbs"
 set "hoststwo=::"
 set "TT=替换" & set "TT2=::"
-title Hosts远程下载更新工具6.1
+title Hosts远程下载更新工具7.0
 :main
 mode con lines=31 cols=60
 if /i not exist Defined_Hosts.txt goto Defined_Hosts >NUL 2>NUL
@@ -35,7 +35,7 @@ echo.  [2] 自定义HOSTS更新链接    [5] 打开 Defined_Hosts.txt
 echo.  [3] 恢复初始 HOSTS         [6] 打开系统 HOSTS 目录
 echo.  [4] 刷新 DNS 解析缓存      [7] 创建桌面快捷方式
 echo.
-set "ziti= 系统HOSTS更新时间："
+set "ziti=系统HOSTS更新时间："
 >"%ziti%" set /p=<nul
 findstr /a:5b .* "%ziti%*"  && if /i exist "%~dp0%ziti%" del /F /Q "%~dp0%ziti%" >NUL 2>NUL
 findstr /ic:"# 2018" "C:\Windows\System32\drivers\etc\hosts" & findstr /ic:"# 2017" "C:\Windows\System32\drivers\etc\hosts" & findstr /ic:"# Last updated:" "C:\Windows\System32\drivers\etc\hosts"
@@ -71,8 +71,8 @@ echo.  [C] 仅使用自定义的HOSTS (Defined_Hosts.txt)
 echo.
 echo.  [T] 设置更新方式:^<%TT%^>
 echo.-------------------------------------------------idoog.me--
-set ID=2
-set /p ID=请输入选项(回车=2):
+set ID=1
+set /p ID=请输入选项(回车=1):
 if /i %ID%==1 set "hosts0=https://coding.net/u/idoog/p/HOSTS/git/raw/master/hosts" && goto hostAD
 if /i %ID%==2 set "hosts0=https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts-files/hosts" && goto hostAD
 ::if /i %ID%==2 set "hosts0=https://github.com/racaljk/hosts/raw/master/hosts" && goto hostAD
