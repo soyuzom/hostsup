@@ -61,7 +61,7 @@
 54.192.136.159	manyvids.com
 54.192.136.15	www.manyvids.com
 216.58.217.206	schema.org
-52.85.82.64	d2adpaynhf6x63.cloudfront.net
+52.85.82.64 d2adpaynhf6x63.cloudfront.net
 52.85.82.205	d5nxst8fruw4z.cloudfront.net
 52.85.82.137	d31qbv1cthcecs.cloudfront.net
 52.85.82.137	*.cloudfront.net
@@ -69,6 +69,9 @@
 52.84.43.162	front.battlegroundsgame.com
 104.19.135.58	www.apkmirror.com
 104.19.132.58	apkmirror.com
+104.20.3.105    www.kink.com
+104.20.3.105    kink.com
+
 # 番号网
 104.31.71.245	javhoo.com
 104.31.71.245	www.javhoo.com
