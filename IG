@@ -18,6 +18,9 @@
 74.120.8.7	pcloud.com
 149.154.167.99	telegram.org
 149.154.167.120	web.telegram.org
+108.177.120.94	translate.google.com
+108.177.119.132	translate.googleusercontent.com
+
 #
 # 国外直播
 23.235.225.42	cbjpeg.stream.highwebmedia.com
