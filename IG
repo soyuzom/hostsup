@@ -1,6 +1,6 @@
 #用户自定义hosts，建议使用notepad++编辑器编辑
 #请在本行后填入自定义hosts
-# 2018-04-14
+# 2018-04-14 IG
 
 192.124.249.10	androidfilehost.com
 199.115.114.221	dc1.androidfilehost.com
@@ -56,9 +56,10 @@
 64.38.230.2	stream.highwebmedia.com
 64.38.230.2	www.chaturbategirls.com
 64.38.230.2	chaturbategirls.com
-45.79.79.211	download.lineageos.org
-192.99.39.68	mirrorbits.lineageos.org
-45.79.90.247	www.lineageos.org
+138.197.102.3    lineageos.org
+138.197.102.3    www.lineageos.org
+138.197.102.3    download.lineageos.org
+144.76.37.78    mirrorbits.lineageos.org
 45.79.90.247	lineageos.org
 64.210.135.134	redtube.com
 64.210.135.134	www.redtube.com
