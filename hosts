@@ -82476,6 +82476,7 @@
 104.31.76.233	pics.javhoo.net
 104.31.76.233	javhoo.net
 104.31.76.233	www.javhoo.net
+
 # 远景论坛
 120.52.19.113	pcbeta.com
 120.52.19.113	uc.pcbeta.com
@@ -82491,6 +82492,43 @@
 218.93.127.135	cdn.pcbeta.img.inimc.com
 120.52.19.113	static.template.pcbeta.com
 120.52.19.113	so.pcbeta.com
+
+# IMDB
+52.94.237.74    imdb.com
+52.94.225.248    www.imdb.com
+52.94.225.254    m.imdb.com
+23.203.242.25    m.media-imdb.com
+23.203.242.25    ia.media-imdb.com
+205.251.203.196    i.media-imdb.com
+52.94.237.74    www.media-imdb.com
+52.94.237.75    pro.imdb.com
+54.239.17.255    help.imdb.com
+52.94.237.74    secure.imdb.com
+23.203.230.244    media-amazon.com
+18.234.8.241    fls-na.amazon.com
+52.94.232.195    unagi-na.amazon.com
+23.203.230.244    m.media-amazon.com
+54.239.21.82    advertising.amazon.com
+54.88.34.154    fls-na.amazon.com
+52.94.216.48    aax-eu.amazon-adsystem.com
+23.11.204.113    sb.scorecardresearch.com
+
+# 香港百老汇电商
+13.228.190.145    broadwaylifestyle.com
+52.74.175.106    www.broadwaylifestyle.com
+172.217.4.136    googletagmanager.com
+172.217.4.136    www.googletagmanager.com
+209.197.3.15    maxcdn.bootstrapcdn.com
+54.230.86.5    dsmxaiyesz6e8.cloudfront.net
+31.13.80.12   xx.fbcdn.net    xx.fbcdn.net
+31.13.80.12    scontent.xx.fbcdn.net
+151.101.64.217    vimeo.com
+151.101.0.217    www.vimeo.com
+151.101.64.217    player.vimeo.com
+198.145.13.11    in.getclicky.com
+104.16.92.193    static.getclicky.com
+
+
 # 屏蔽网站
 127.0.0.1	www.xiacai.com
 127.0.0.1	xiacai.com
