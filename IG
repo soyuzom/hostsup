@@ -1,6 +1,5 @@
-#用户自定义hosts，建议使用notepad++编辑器编辑
-#请在本行后填入自定义hosts
-# IG  2018-04.25
+# 个人采集自用
+# 2018-05.26 IG
 
 192.124.249.10	androidfilehost.com
 199.115.114.221	dc1.androidfilehost.com
