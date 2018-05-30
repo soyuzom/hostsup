@@ -1,5 +1,5 @@
 # 个人采集自用
-# 2018-05.26 IG
+# 2018-05.30 IG
 
 192.124.249.10	androidfilehost.com
 199.115.114.221	dc1.androidfilehost.com
@@ -56,6 +56,31 @@
 64.38.230.2	stream.highwebmedia.com
 64.38.230.2	www.chaturbategirls.com
 64.38.230.2	chaturbategirls.com
+
+# Pornhub直播
+216.18.168.16    pornhub.com
+216.18.168.16    www.pornhub.com
+152.195.33.132    ci.phncdn.com
+205.185.208.142    cdn1d-static-shared.phncdn.com
+216.18.168.17    pornhubselect.com
+216.18.168.19    pornhubpremium.com
+216.18.168.17    www.pornhubselect.com
+216.18.168.19    www.pornhubpremium.com
+172.217.4.174    www.google-analytics.com
+216.18.168.16    fr.pornhub.com
+216.18.168.16    es.pornhub.com
+216.18.168.16    it.pornhub.com
+216.18.168.16    pt.pornhub.com
+216.18.168.16    pl.pornhub.com
+216.18.168.16    rt.pornhub.com
+216.18.168.16    jp.pornhub.com
+216.18.168.16    nl.pornhub.com
+216.18.168.16    cz.pornhub.com
+172.217.5.206    www.schema.org
+152.195.33.132    cv.phncdn.com
+205.185.208.142    di.phncdn.com
+205.185.208.142    ds.phncdn.com
+216.18.168.25    cdn1-smallimg.phncdn.com
 
 138.197.102.3    lineageos.org
 138.197.102.3    www.lineageos.org
