@@ -88,8 +88,8 @@
 144.76.37.78    mirrorbits.lineageos.org
 
 
-64.210.135.134	redtube.com
-64.210.135.134	www.redtube.com
+216.18.168.124	redtube.com
+216.18.168.124	www.redtube.com
 54.192.136.159	manyvids.com
 54.192.136.15	www.manyvids.com
 216.58.217.206	schema.org
