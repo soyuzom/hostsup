@@ -150,20 +150,14 @@
 52.94.216.48    aax-eu.amazon-adsystem.com
 23.11.204.113    sb.scorecardresearch.com
 
-# 香港百老汇电商
-13.228.190.145    broadwaylifestyle.com
-52.74.175.106    www.broadwaylifestyle.com
-172.217.4.136    googletagmanager.com
-172.217.4.136    www.googletagmanager.com
-209.197.3.15    maxcdn.bootstrapcdn.com
-54.230.86.5    dsmxaiyesz6e8.cloudfront.net
-31.13.80.12   xx.fbcdn.net    xx.fbcdn.net
-31.13.80.12    scontent.xx.fbcdn.net
-151.101.64.217    vimeo.com
-151.101.0.217    www.vimeo.com
-151.101.64.217    player.vimeo.com
-198.145.13.11    in.getclicky.com
-104.16.92.193    static.getclicky.com
+# javhoo
+64.111.199.222    syndication.exosrv.com
+104.31.76.233    javhoo.net
+104.31.76.233    pics.javhoo.net
+104.31.76.233    www.javhoo.net
+202.6.245.93    pics.dmm.co.jp
+203.209.152.60    dmm.co.jp
+
 
 
 # 屏蔽网站
