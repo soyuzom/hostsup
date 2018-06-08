@@ -1,5 +1,5 @@
 # 个人采集自用
-# 2018-05.30 IG
+# 2018-6-8 IG
 
 192.124.249.10	androidfilehost.com
 199.115.114.221	dc1.androidfilehost.com
@@ -25,37 +25,38 @@
 #
 # 国外直播
 23.235.225.42	cbjpeg.stream.highwebmedia.com
-131.153.29.138	edge64.stream.highwebmedia.com
+131.153.82.57	edge64.stream.highwebmedia.com
 104.16.47.23	ssl-ccstatic.highwebmedia.com
 104.20.17.63	chaturbatestore.com
 104.16.146.241	chaturbate.com
-104.16.147.241	www.chaturbate.com
-50.18.156.150	support.chaturbate.com
-104.16.147.241	blog.chaturbate.com
-54.230.87.126	cbpv.chaturbate.com
-104.16.107.24	public.chaturbate.com
+104.16.146.241	www.chaturbate.com
+184.169.129.114	support.chaturbate.com
+104.16.146.241	blog.chaturbate.com
+52.84.130.238	cbpv.chaturbate.com
+104.16.108.24	public.chaturbate.com
 104.16.147.241	ar.chaturbate.com
-104.16.147.241	de.chaturbate.com
+104.16.146.241	de.chaturbate.com
 104.16.146.241	en.chaturbate.com
 104.16.147.241	ei.chaturbate.com
-104.16.146.241	es.chaturbate.com
+104.16.147.241	es.chaturbate.com
 104.16.146.241	fr.chaturbate.com
 104.16.146.241	hi.chaturbate.com
 104.16.147.241	it.chaturbate.com
-104.16.147.241	jp.chaturbate.com
+104.16.146.241	jp.chaturbate.com
 104.16.147.241	ko.chaturbate.com
-104.16.147.241	nl.chaturbate.com
+104.16.146.241	nl.chaturbate.com
 104.16.146.241	pt.chaturbate.com
 104.16.147.241	ru.chaturbate.com
-104.16.147.241	tr.chaturbate.com
+104.16.146.241	tr.chaturbate.com
 104.16.146.241	zh.chaturbate.com
 104.16.147.241	m.chaturbate.com
 104.16.47.23	www.highwebmedia.com
 104.16.47.55	roomimg.stream.highwebmedia.com
 64.38.230.2	highwebmedia.com
 64.38.230.2	stream.highwebmedia.com
-64.38.230.2	www.chaturbategirls.com
-64.38.230.2	chaturbategirls.com
+104.16.44.196	www.chaturbategirls.com
+35.190.1.20	chaturbategirls.com
+
 
 # Pornhub直播
 216.18.168.16    pornhub.com
