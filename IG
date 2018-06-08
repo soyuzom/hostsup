@@ -147,6 +147,16 @@
 104.31.76.233	javhoo.net
 104.31.76.233	www.javhoo.net
 
+104.27.139.28	javbooks.com
+163.172.90.121	pic.javbooks.com
+104.27.139.28	www.javbooks.com
+184.168.221.4	www.mvbt.com
+104.28.0.152	jmvbt.com
+38.91.108.43    www.pacopacomama.com
+38.91.108.43    pacopacomama.com
+
+
+
 # 远景论坛
 120.52.19.113	pcbeta.com
 120.52.19.113	uc.pcbeta.com
