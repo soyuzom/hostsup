@@ -202,6 +202,11 @@
 203.209.152.60    dmm.co.jp
 
 
+# Corel
+127.0.0.1 apps.corel.com
+127.0.0.1 mc.corel.com
+127.0.0.1 origin-mc.corel.com
+127.0.0.1 iws.corel.com
 
 # 屏蔽网站
 127.0.0.1	www.xiacai.com
