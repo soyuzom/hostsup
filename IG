@@ -130,7 +130,6 @@
 52.85.82.205	d5nxst8fruw4z.cloudfront.net
 52.85.82.137	d31qbv1cthcecs.cloudfront.net
 52.85.82.137	*.cloudfront.net
-66.71.250.27	greasyfork.org
 52.84.43.162	front.battlegroundsgame.com
 104.19.135.58	www.apkmirror.com
 104.19.132.58	apkmirror.com
