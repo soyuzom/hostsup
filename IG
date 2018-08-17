@@ -10,7 +10,6 @@
 17.137.163.1	gs.apple.com
 209.58.128.90	xda-developers.com
 207.244.72.9	forum.xda-developers.com
-157.240.11.52	l.instagram.com
 104.192.143.1	bitbucket.org
 104.192.143.3	www.bitbucket.org
 74.120.8.14 my.pcloud.com
@@ -120,7 +119,6 @@
 138.197.102.3    download.lineageos.org
 144.76.37.78    mirrorbits.lineageos.org
 
-
 216.18.168.124	redtube.com
 216.18.168.124	www.redtube.com
 54.192.136.159	manyvids.com
@@ -137,14 +135,21 @@
 104.20.3.105    kink.com
 
 # 番号网
+# javhoo
+64.111.199.222    syndication.exosrv.com
+104.31.76.233    javhoo.net
+104.31.76.233    pics.javhoo.net
+104.31.76.233    www.javhoo.net
+
+141.105.67.11	javhoo.co
+141.105.67.11	www.javhoo.co
+
 104.31.71.245	javhoo.com
 104.31.71.245	www.javhoo.com
-202.6.247.66	pics.dmm.co.jp
+
+202.6.245.93    pics.dmm.co.jp
+203.209.152.60    dmm.co.jp
 202.6.246.29	www.dmm.co.jp
-203.209.152.60	dmm.co.jp
-104.31.76.233	pics.javhoo.net
-104.31.76.233	javhoo.net
-104.31.76.233	www.javhoo.net
 
 104.27.139.28	javbooks.com
 163.172.90.121	pic.javbooks.com
@@ -192,20 +197,6 @@
 52.94.216.48    aax-eu.amazon-adsystem.com
 23.11.204.113    sb.scorecardresearch.com
 
-# javhoo
-64.111.199.222    syndication.exosrv.com
-104.31.76.233    javhoo.net
-104.31.76.233    pics.javhoo.net
-104.31.76.233    www.javhoo.net
-202.6.245.93    pics.dmm.co.jp
-203.209.152.60    dmm.co.jp
-
-
-# Corel
-127.0.0.1 apps.corel.com
-127.0.0.1 mc.corel.com
-127.0.0.1 origin-mc.corel.com
-127.0.0.1 iws.corel.com
 
 # 屏蔽网站
 127.0.0.1	www.xiacai.com
@@ -230,5 +221,9 @@
 127.0.0.1	zantainet.com
 127.0.0.1	hao643.com
 127.0.0.1	www.hao643.com
-#
+# Corel
+127.0.0.1 apps.corel.com
+127.0.0.1 mc.corel.com
+127.0.0.1 origin-mc.corel.com
+127.0.0.1 iws.corel.com
 #
