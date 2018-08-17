@@ -1,5 +1,5 @@
 # 个人采集自用
-# 2018-6-8 IG
+# 2018-8-18 IG
 
 192.124.249.10	androidfilehost.com
 199.115.114.221	dc1.androidfilehost.com
