@@ -1,39 +1,49 @@
-# idoog.me
-# 2018-9-4 IG
+127.0.0.1 localhost
 
-192.124.249.10 androidfilehost.com
-199.115.114.221 dc1.androidfilehost.com
-149.202.17.192 de1.androidfilehost.com
-167.114.65.90 qc3.androidfilehost.com
-167.114.65.91 qc4.androidfilehost.com
-209.58.144.195 tx1.androidfilehost.com
-17.137.163.1 gs.apple.com
-209.58.128.90 xda-developers.com
-207.244.72.9 forum.xda-developers.com
-104.192.143.1 bitbucket.org
-104.192.143.3 www.bitbucket.org
-74.120.8.14 my.pcloud.com
-74.120.8.13 www.pcloud.com
-74.120.8.7 pcloud.com
-149.154.167.99 telegram.org
-149.154.167.120 web.telegram.org
-108.177.120.94 translate.google.com
-108.177.119.132 translate.googleusercontent.com
-104.40.3.53 www.lastpass.com
-23.14.162.171 lastpass.com
-#
-# ChaturBate
-23.235.225.42 cbjpeg.stream.highwebmedia.com
-131.153.82.57 edge64.stream.highwebmedia.com
-104.16.47.23 ssl-ccstatic.highwebmedia.com
-104.20.17.63 chaturbatestore.com
-104.16.146.241 chaturbate.com
-104.16.146.241 www.chaturbate.com
-184.169.129.114 support.chaturbate.com
-104.16.146.241 blog.chaturbate.com
-23.235.225.42 cbjpeg.stream.highwebmedia.com
-131.153.82.57 edge64.stream.highwebmedia.com
-104.16.47.23 ssl-ccstatic.highwebmedia.com
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+
+104.28.6.127 www.busdmm.icu
+104.28.6.127 busdmm.icu
+
+172.67.80.44 javbus.com
+172.67.80.44 www.javbus.com
+172.67.80.44 images.javbus.com
+172.67.80.44 pics.javbus.com
+
+72.52.179.174 www.seedmm.net
+72.52.179.174 seedmm.net
+
+202.6.246.10 pics.dmm.co.jp
+202.6.246.29 dmm.co.jp
+104.27.138.28 javbooks.com
+104.27.139.28 www.javbooks.com
+104.27.139.28 pic.www.javbooks.com
+
+104.31.70.245	www.javhoo.com
+104.31.70.245	javhoo.com
+172.67.160.141	www.javhoo.com
+172.67.160.141	javhoo.com
+
+104.27.155.26 avgle.com
+104.27.154.26 avgle.com
+172.67.217.145 avgle.com
+199.193.73.38 sub2.avgle.com
+213.174.135.4 static-clst.avgle.com
+213.174.135.3 static-clst.avgle.com
+104.31.4.159 gooqlevideo.xyz
+88.208.31.6 cdn.qooqlevideo.com
+
+35.227.242.56 click.dtiserv2.com
+
+104.19.134.58 www.apkmirror.com
+104.19.134.58 apkmirror.com
+88.208.5.14 ahcdn.com
+# 51.77.148.218 uupdump.ml
+104.16.86.20 cdn.jsdelivr.net
+
 104.20.17.63 chaturbatestore.com
 104.16.146.241 chaturbate.com
 104.16.146.241 www.chaturbate.com
@@ -41,196 +51,128 @@
 104.16.146.241 blog.chaturbate.com
 13.35.2.82  cbpv.chaturbate.com
 104.16.108.24 public.chaturbate.com
-104.16.147.241 ar.chaturbate.com
+104.16.146.241 ar.chaturbate.com
 104.16.146.241 de.chaturbate.com
 104.16.146.241 en.chaturbate.com
-104.16.147.241 ei.chaturbate.com
-104.16.147.241 es.chaturbate.com
+104.16.146.241 ei.chaturbate.com
+104.16.146.241 es.chaturbate.com
 104.16.146.241 fr.chaturbate.com
 104.16.146.241 hi.chaturbate.com
-104.16.147.241 it.chaturbate.com
+104.16.146.241 it.chaturbate.com
 104.16.146.241 jp.chaturbate.com
-104.16.147.241 ko.chaturbate.com
+104.16.146.241 ko.chaturbate.com
 104.16.146.241 nl.chaturbate.com
 104.16.146.241 pt.chaturbate.com
-104.16.147.241 ru.chaturbate.com
+104.16.146.241 ru.chaturbate.com
 104.16.146.241 tr.chaturbate.com
 104.16.146.241 zh.chaturbate.com
-104.16.147.241 m.chaturbate.com
-104.16.47.23 www.highwebmedia.com
-104.16.47.55 roomimg.stream.highwebmedia.com
-64.38.230.2 highwebmedia.com
-64.38.230.2 stream.highwebmedia.com
-104.16.44.196 www.chaturbategirls.com
-35.190.1.20 chaturbategirls.com
-13.35.2.82 cbpv.chaturbate.com
-104.16.108.24 public.chaturbate.com
-104.16.147.241 ar.chaturbate.com
-104.16.146.241 de.chaturbate.com
-104.16.146.241 en.chaturbate.com
-104.16.147.241 ei.chaturbate.com
-104.16.147.241 es.chaturbate.com
-104.16.146.241 fr.chaturbate.com
-104.16.146.241 hi.chaturbate.com
-104.16.147.241 it.chaturbate.com
-104.16.146.241 jp.chaturbate.com
-104.16.147.241 ko.chaturbate.com
-104.16.146.241 nl.chaturbate.com
-104.16.146.241 pt.chaturbate.com
-104.16.147.241 ru.chaturbate.com
-104.16.146.241 tr.chaturbate.com
-104.16.146.241 zh.chaturbate.com
-104.16.147.241 m.chaturbate.com
-104.16.47.23 www.highwebmedia.com
-104.16.47.55 roomimg.stream.highwebmedia.com
-64.38.230.2 highwebmedia.com
-64.38.230.2 stream.highwebmedia.com
-104.16.44.196 www.chaturbategirls.com
-35.190.1.20 chaturbategirls.com
+104.16.146.241 m.chaturbate.com
+35.190.1.20	4mountain.com
+104.16.44.196	www.4mountain.com
 
+104.18.100.40	recommend.chaturbate.com
+34.196.238.186	alexametrics.com
+143.204.94.100	certify-js.alexametrics.com
+104.19.149.122	exoticads.com
+104.19.148.122	cdn.exoticads.com
+172.217.21.164	google-analytics.com
+216.58.211.14	www.google-analytics.com
+216.58.207.195	gstatic.com
+172.217.21.131	www.gstatic.com
+64.38.230.2	highwebmedia.com
+104.16.94.42	push.highwebmedia.com
+104.16.94.42	ssl-ccstatic.highwebmedia.com
+131.153.88.94	cbjpeg.stream.highwebmedia.com
+104.19.241.83	chatws-68.stream.highwebmedia.com
+131.153.92.40	edge291.stream.highwebmedia.com
+104.19.242.83	roomimg.stream.highwebmedia.com
+151.101.66.217	newrelic.com
+151.101.86.110	js-agent.newrelic.com
 
-# Pornhub
-216.18.168.16 pornhub.com
-216.18.168.16 www.pornhub.com
-152.195.33.132 ci.phncdn.com
-205.185.208.142 cdn1d-static-shared.phncdn.com
-216.18.168.17 pornhubselect.com
-216.18.168.19 pornhubpremium.com
-216.18.168.17 www.pornhubselect.com
-216.18.168.19 www.pornhubpremium.com
-172.217.4.174 www.google-analytics.com
-216.18.168.16 fr.pornhub.com
-216.18.168.16 es.pornhub.com
-216.18.168.16 it.pornhub.com
-216.18.168.16 pt.pornhub.com
-216.18.168.16 pl.pornhub.com
-216.18.168.16 rt.pornhub.com
-216.18.168.16 jp.pornhub.com
-216.18.168.16 nl.pornhub.com
-216.18.168.16 cz.pornhub.com
-172.217.5.206 www.schema.org
-152.195.33.132 cv.phncdn.com
-205.185.208.142 di.phncdn.com
-205.185.208.142 ds.phncdn.com
-216.18.168.25 cdn1-smallimg.phncdn.com
-
-138.197.102.3 lineageos.org
-138.197.102.3 www.lineageos.org
-138.197.102.3 download.lineageos.org
-144.76.37.78 mirrorbits.lineageos.org
-
-216.18.168.124 redtube.com
-216.18.168.124 www.redtube.com
-54.192.136.159 manyvids.com
-54.192.136.15 www.manyvids.com
-216.58.217.206 schema.org
-52.85.82.64 d2adpaynhf6x63.cloudfront.net
-52.85.82.205 d5nxst8fruw4z.cloudfront.net
-52.85.82.137 d31qbv1cthcecs.cloudfront.net
-52.85.82.137 *.cloudfront.net
-52.84.43.162 front.battlegroundsgame.com
-104.19.135.58 www.apkmirror.com
-104.19.132.58 apkmirror.com
-104.20.3.105 www.kink.com
-104.20.3.105 kink.com
-
-# AV
-
-104.25.12.12 *.javbus.org
-104.25.12.12 javbus.org
-104.25.12.12 www.javbus.org
-104.25.12.12 images.javbus.org
-
-# javhoo
-64.111.199.222 syndication.exosrv.com
-104.31.76.233 javhoo.net
-104.31.76.233 pics.javhoo.net
-104.31.76.233 www.javhoo.net
-
-141.105.67.11 javhoo.co
-141.105.67.11 www.javhoo.co
-
-104.31.71.245 javhoo.com
-104.31.71.245 www.javhoo.com
-
-202.6.245.93 pics.dmm.co.jp
-203.209.152.60 dmm.co.jp
-202.6.246.29 www.dmm.co.jp
-
-104.27.139.28 javbooks.com
-163.172.90.121 pic.javbooks.com
-104.27.139.28 www.javbooks.com
-184.168.221.4 www.mvbt.com
-104.28.0.152 jmvbt.com
-38.91.108.43 www.pacopacomama.com
-38.91.108.43 pacopacomama.com
-
-
-
-# pcbeta BBS
-120.52.19.113 pcbeta.com
-120.52.19.113 uc.pcbeta.com
-120.52.19.113 m.pcbeta.com
-120.52.19.113 web.pcbeta.com
-120.52.19.113 i.pcbeta.com
-120.52.19.113 bbs.pcbeta.com
-120.52.19.113 www.pcbeta.com
-218.93.127.135 cdn.pcbeta.attachment.inimc.com
-218.93.127.135 cdn.pcbeta.static.inimc.com
-218.93.127.135 cdn.pcbeta.css.inimc.com
-218.93.127.135 cdn.pcbeta.js.inimc.com
-218.93.127.135 cdn.pcbeta.img.inimc.com
-120.52.19.113 static.template.pcbeta.com
-120.52.19.113 so.pcbeta.com
-
-# IMDB
-52.94.237.74 imdb.com
-52.94.225.248 www.imdb.com
-52.94.225.254 m.imdb.com
-23.203.242.25 m.media-imdb.com
-23.203.242.25 ia.media-imdb.com
-205.251.203.196 i.media-imdb.com
-52.94.237.74 www.media-imdb.com
-52.94.237.75 pro.imdb.com
-54.239.17.255 help.imdb.com
-52.94.237.74 secure.imdb.com
-23.203.230.244 media-amazon.com
-18.234.8.241 fls-na.amazon.com
-52.94.232.195 unagi-na.amazon.com
-23.203.230.244 m.media-amazon.com
-54.239.21.82 advertising.amazon.com
-54.88.34.154 fls-na.amazon.com
-52.94.216.48 aax-eu.amazon-adsystem.com
-23.11.204.113 sb.scorecardresearch.com
-
-104.18.56.236 free-ss.site
-
-# AD
-127.0.0.1 www.xiacai.com
-127.0.0.1 xiacai.com
-127.0.0.1 www.hao123.com
-127.0.0.1 hao123.com
-127.0.0.1 www.hao123.hu
-127.0.0.1 hao123.hu
-127.0.0.1 adserver.exoticads.com
-127.0.0.1 exoticads.com
-127.0.0.1 tuia.cn
-127.0.0.1 ltheanine.cn
-127.0.0.1 jdkic.com
-127.0.0.1 www.tuia.cn
-127.0.0.1 www.ltheanine.cn
-127.0.0.1 www.jdkic.com
-127.0.0.1 tuia.cn
-127.0.0.1 ltheanine.cn
-127.0.0.1 jdkic.com
-127.0.0.1 z.code.zantainet.com
-127.0.0.1 code.zantainet.com
-127.0.0.1 zantainet.com
-127.0.0.1 hao643.com
-127.0.0.1 www.hao643.com
-# Corel
+45.33.37.174 greasyfork.org
 127.0.0.1 apps.corel.com
 127.0.0.1 mc.corel.com
 127.0.0.1 origin-mc.corel.com
 127.0.0.1 iws.corel.com
-#
+127.0.0.1 ipm.corel.com
+
+127.0.0.1 geo2.adobe.com
+127.0.0.1 fpdownload.macromedia.com
+91.189.88.152 archive.ubuntu.com
+2001:67c:1360:8001::24 archive.ubuntu.com
+104.31.74.55 www.youneed.win
+104.31.74.55 youneed.win
+
+13.107.4.50	tlu.dl.delivery.mp.microsoft.com
+51.77.148.218	uupdump.ml
+
+# Twitch Start
+104.94.41.138 api.twitch.tv
+151.101.110.167 gql.twitch.tv
+151.101.230.167 www.twitch.tv
+151.101.66.167 twitch.tv
+184.169.164.174 help.twitch.tv
+23.12.207.125 cvp.twitch.tv
+23.160.0.254 usher.ttvnw.net
+23.77.13.84 player.twitch.tv
+34.212.220.91 trowel.twitch.tv
+34.216.28.142 countess.twitch.tv
+35.161.182.231 spade.twitch.tv
+35.163.32.174 video-edge-867df2.sjc02.hls.ttvnw.net
+35.164.18.6 irc-ws.chat.twitch.tv
+35.165.41.164 video-edge-af973f.sjc02.hls.ttvnw.net
+35.185.17.162 music.twitch.tv
+52.223.227.246 video-edge-7e96a0.sea01.abs.hls.ttvnw.net
+52.223.228.119 video-edge-7e9938.sea01.abs.hls.ttvnw.net
+52.223.241.18 video-weaver.sjc02.hls.ttvnw.net
+52.223.252.212 video-edge-7ea270.sjc02.abs.hls.ttvnw.net
+52.223.253.59 video-edge-a37110.sjc02.abs.hls.ttvnw.net
+52.24.180.27 pubsub-edge.twitch.tv
+52.24.56.73 video-edge-91c358.sjc02.hls.ttvnw.net
+52.26.110.179 client-event-reporter.twitch.tv
+52.39.89.40 discuss.dev.twitch.tv
+52.4.145.119 blog.twitch.tv
+52.40.25.185 badges.twitch.tv
+52.41.6.153 video-edge-a4da6d.sjc02.hls.ttvnw.net
+52.84.47.22 dev.twitch.tv
+54.191.74.73 video-edge-98de7c.sjc02.hls.ttvnw.net
+54.192.151.22 clips-media-assets2.twitch.tv
+54.192.151.7 vod-storyboards.twitch.tv
+54.192.151.87 extension-files.twitch.tv
+54.200.235.249 video-edge-6c210a.sjc02.hls.ttvnw.net
+54.69.142.1 spade.sci.twitch.tv
+54.71.196.178 passport.twitch.tv
+54.84.222.78 app.twitch.tv
+# Twitch End
+
+140.82.121.3	github.com
+47.241.4.205	github.com.cnpmjs.org
+151.101.84.133	raw.githubusercontent.com
+140.82.121.10	codeload.github.com
+
+185.199.109.153	qianjiachun.github.io
+185.199.109.153	github.io
+
+
+151.101.0.84	v.pinimg.com
+151.101.0.84	pinimg.com
+151.101.0.84	www.pinterest.com
+
+127.0.0.1 173.255.195.56
+127.0.0.1 check.recoverlostpassword.com
+127.0.0.1 check1.recoverlostpassword.com
+
+104.26.11.128	androidfilehost.com
+119.167.157.20	www.lanzoux.com
+114.80.187.73	lanzoux.com
+
+# America: 104.154.51.7
+# Asia: 104.155.220.58
+# Europe: 104.155.28.90
+# South America: 35.199.88.219
+# Other countries: 78.109.17.60
+# United States of America: 104.154.51.7
+# 104.155.220.58.iCloud.com/Unlocker.net
+# 104.155.230.60.iCloud.us/Remove.net
+# 104.155.240.61.iCloud.net/bypass.org
+
